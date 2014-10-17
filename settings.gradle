@@ -1,0 +1,4 @@
+rootProject.name = 'semanticWebScraper'
+include 'app'
+
+c

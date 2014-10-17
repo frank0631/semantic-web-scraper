@@ -1,0 +1,14 @@
+# Java class files
+*.class
+
+# Gradle files
+.gradle/
+build/
+
+# Idea, File-based project format
+*.ipr
+*.iml
+*.iws
+
+.DS_Store
+.idea/libraries

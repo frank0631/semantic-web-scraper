@@ -1,0 +1,15 @@
+# Default 
+gradle
+.gradle
+tmp
+
+# Idea, User Specific
+.idea
+
+# Idea, File-based project format
+*.ipr
+*.iml
+*.iws
+
+.DS_Store
+.idea/libraries
