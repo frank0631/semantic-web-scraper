@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/3/trunk/Maui1.0/src/maui/stemmers
+END
+NoStemmer.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3/trunk/Maui1.0/src/maui/stemmers/NoStemmer.java
+END
+SpanishStemmer.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/3/trunk/Maui1.0/src/maui/stemmers/SpanishStemmer.java
+END
+IteratedLovinsStemmer.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/3/trunk/Maui1.0/src/maui/stemmers/IteratedLovinsStemmer.java
+END
+SpanishStemmerSB.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/trunk/Maui1.0/src/maui/stemmers/SpanishStemmerSB.java
+END
+GermanStemmer.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/3/trunk/Maui1.0/src/maui/stemmers/GermanStemmer.java
+END
+SremovalStemmer.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/3/trunk/Maui1.0/src/maui/stemmers/SremovalStemmer.java
+END
+FrenchStemmer.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/3/trunk/Maui1.0/src/maui/stemmers/FrenchStemmer.java
+END
+LovinsStemmer.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/3/trunk/Maui1.0/src/maui/stemmers/LovinsStemmer.java
+END
+PorterStemmer.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/3/trunk/Maui1.0/src/maui/stemmers/PorterStemmer.java
+END
+Stemmer.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/3/trunk/Maui1.0/src/maui/stemmers/Stemmer.java
+END

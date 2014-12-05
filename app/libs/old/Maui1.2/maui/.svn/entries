@@ -1,0 +1,53 @@
+9
+
+dir
+3
+https://maui-indexer.googlecode.com/svn/trunk/Maui1.0/src/maui
+https://maui-indexer.googlecode.com/svn
+
+
+
+2009-05-19T04:56:47.795687Z
+3
+medelyan
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f1b9fa90-442c-11de-952f-710615d9d0d5
+
+
+
+
+
+
+0
+
+filters
+dir
+
+main
+dir
+
+stemmers
+dir
+
+stopwords
+dir
+
+util
+dir
+
+vocab
+dir
+

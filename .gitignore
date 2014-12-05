@@ -1,7 +1,8 @@
-# Default 
-gradle
+# Default
 .gradle
 tmp
+
+app/URLs
 
 # Idea, User Specific
 .idea

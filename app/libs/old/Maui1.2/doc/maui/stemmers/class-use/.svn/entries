@@ -1,0 +1,98 @@
+9
+
+dir
+0
+https://maui-indexer.googlecode.com/svn/trunk/Maui1.0/doc/maui/stemmers/class-use
+https://maui-indexer.googlecode.com/svn
+add
+
+
+
+
+
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f1b9fa90-442c-11de-952f-710615d9d0d5
+
+FrenchStemmer.html
+file
+
+
+
+add
+
+GermanStemmer.html
+file
+
+
+
+add
+
+IteratedLovinsStemmer.html
+file
+
+
+
+add
+
+LovinsStemmer.html
+file
+
+
+
+add
+
+NoStemmer.html
+file
+
+
+
+add
+
+PorterStemmer.html
+file
+
+
+
+add
+
+SpanishStemmer.html
+file
+
+
+
+add
+
+SpanishStemmerSB.html
+file
+
+
+
+add
+
+SremovalStemmer.html
+file
+
+
+
+add
+
+Stemmer.html
+file
+
+
+
+add
+

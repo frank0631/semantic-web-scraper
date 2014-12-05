@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/3/trunk/Maui1.0/data/stopwords
+END
+stopwords_en.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/17/trunk/Maui1.0/data/stopwords/stopwords_en.txt
+END
+stopwords_fr.txt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3/trunk/Maui1.0/data/stopwords/stopwords_fr.txt
+END
+stopwords_es.txt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3/trunk/Maui1.0/data/stopwords/stopwords_es.txt
+END

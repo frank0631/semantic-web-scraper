@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/3/trunk/Maui1.0/src/maui/filters
+END
+MauiFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/17/trunk/Maui1.0/src/maui/filters/MauiFilter.java
+END
+MauiPhraseFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/14/trunk/Maui1.0/src/maui/filters/MauiPhraseFilter.java
+END
+NumbersFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3/trunk/Maui1.0/src/maui/filters/NumbersFilter.java
+END

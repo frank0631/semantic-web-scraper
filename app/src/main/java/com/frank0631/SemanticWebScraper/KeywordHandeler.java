@@ -1,6 +1,10 @@
 package com.frank0631.SemanticWebScraper;
 
+//import com.entopix.maui.main.MauiWrapper;
+//import com.entopix.maui.util.Topic;
 import maui.main.MauiWrapper;
+import maui.util.*;
+
 
 import java.io.File;
 import java.io.PrintWriter;
@@ -8,9 +12,8 @@ import java.util.*;
 
 public class KeywordHandeler {
 
-   String vocabularyName = "lcsh";
+   String vocabularyName = "libs/lcsh.rdf.gz";
    String modelName = "theses80";
-   String dataDirectory = "libs/Maui1.2/";
    MauiWrapper keywordsExtractor;
    int keywordsLimit = 30;
    String regexCSV = "[^A-Za-z0-9() ]"; 
@@ -19,7 +22,7 @@ public class KeywordHandeler {
    public KeywordHandeler(){
    
    //setup keywords extractor
-      keywordsExtractor = new MauiWrapper(dataDirectory, vocabularyName, modelName);
+      keywordsExtractor = new MauiWrapper(modelName,vocabularyName,"skos");
    
    }
 
@@ -35,8 +38,14 @@ public class KeywordHandeler {
          String url = pairs.getKey();
          String txtSummery = pairs.getValue();
          try{
+            /*ArrayList<Topic> keytopics = keywordsExtractor.extractTopicsFromText(txtSummery, keywordsLimit);
+            ArrayList<String> keywords = new ArrayList<String>();
+            for (Topic topic : keytopics)
+               keywords.add(topic.toString());*/
+
             ArrayList<String> keywords = keywordsExtractor.extractTopicsFromText(txtSummery, keywordsLimit);
-            urlKeywords.put(url, keywords);  
+
+            urlKeywords.put(url, keywords);
             System.out.println(++i);
          }
          catch(Exception e){
