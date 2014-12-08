@@ -4,10 +4,10 @@ import java.util.*;
 
 public class semanticWebScraper {
 
-   String url_file_name = "cosmo_urls.txt";
-   String badurl_file_name = "cosmo_urls_bad.txt";
-   String distribution_file_name = "cosmo_distribution.csv";
-   String matrix_file_name = "cosmo_matrix.csv";
+   String url_file_name = "test_urls.txt";
+   String badurl_file_name = "test_urls_bad.txt";
+   String distribution_file_name = "test_distribution.csv";
+   String matrix_file_name = "test_matrix.csv";
 
    ArrayList<String> URLs;
    ArrayList<String> Bad_URLs; 

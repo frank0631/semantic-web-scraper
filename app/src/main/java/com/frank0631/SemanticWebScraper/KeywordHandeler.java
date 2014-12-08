@@ -2,8 +2,8 @@ package com.frank0631.SemanticWebScraper;
 
 //import com.entopix.maui.main.MauiWrapper;
 //import com.entopix.maui.util.Topic;
-import maui.main.MauiWrapper;
-import maui.util.*;
+import com.entopix.maui.main.MauiWrapper;
+import com.entopix.maui.util.*;
 
 
 import java.io.File;
@@ -38,12 +38,12 @@ public class KeywordHandeler {
          String url = pairs.getKey();
          String txtSummery = pairs.getValue();
          try{
-            /*ArrayList<Topic> keytopics = keywordsExtractor.extractTopicsFromText(txtSummery, keywordsLimit);
+            ArrayList<Topic> keytopics = keywordsExtractor.extractTopicsFromText(txtSummery, keywordsLimit);
             ArrayList<String> keywords = new ArrayList<String>();
             for (Topic topic : keytopics)
-               keywords.add(topic.toString());*/
+               keywords.add(topic.toString());
 
-            ArrayList<String> keywords = keywordsExtractor.extractTopicsFromText(txtSummery, keywordsLimit);
+            //ArrayList<String> keywords = keywordsExtractor.extractTopicsFromText(txtSummery, keywordsLimit);
 
             urlKeywords.put(url, keywords);
             System.out.println(++i);

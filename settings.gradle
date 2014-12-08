@@ -1,2 +1,3 @@
 rootProject.name = 'semanticWebScraper'
 include 'app'
+include 'dictionary'

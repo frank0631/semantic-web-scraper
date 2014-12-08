@@ -1,14 +1,20 @@
 package com.frank0631.SemanticWebScraper;
 
-import de.l3s.boilerpipe.*;
-import de.l3s.boilerpipe.extractors.*;
-import de.l3s.boilerpipe.sax.*;
-import org.apache.commons.io.*;
+import de.l3s.boilerpipe.BoilerpipeProcessingException;
+import de.l3s.boilerpipe.extractors.ArticleExtractor;
+import de.l3s.boilerpipe.sax.HTMLHighlighter;
 import org.xml.sax.SAXException;
-import java.io.*;
-import java.util.*;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.LinkedHashMap;
+import java.util.Map;
 
 //Scrapes articles from URLs
 public class ArticleHandeler {
