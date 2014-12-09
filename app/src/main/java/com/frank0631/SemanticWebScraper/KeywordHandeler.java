@@ -12,8 +12,8 @@ import java.util.*;
 
 public class KeywordHandeler {
 
-   String vocabularyName = "libs/lcsh.rdf.gz";
-   String modelName = "theses80";
+   String vocabularyName = "lcsh.rdf.gz";
+   String modelName = "frank";
    MauiWrapper keywordsExtractor;
    int keywordsLimit = 30;
    String regexCSV = "[^A-Za-z0-9() ]"; 
@@ -23,6 +23,7 @@ public class KeywordHandeler {
    
    //setup keywords extractor
       keywordsExtractor = new MauiWrapper(modelName,vocabularyName,"skos");
+      keywordsExtractor.setModelParameters(vocabularyName,null,null,null);
    
    }
 
@@ -41,7 +42,7 @@ public class KeywordHandeler {
             ArrayList<Topic> keytopics = keywordsExtractor.extractTopicsFromText(txtSummery, keywordsLimit);
             ArrayList<String> keywords = new ArrayList<String>();
             for (Topic topic : keytopics)
-               keywords.add(topic.toString());
+               keywords.add(topic.getTitle());
 
             //ArrayList<String> keywords = keywordsExtractor.extractTopicsFromText(txtSummery, keywordsLimit);
 

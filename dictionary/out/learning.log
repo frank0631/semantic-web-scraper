@@ -1,0 +1,1543 @@
+14:10:06,180 INFO  [MauiTopicExtractor] --- Loading the vocabulary...
+14:10:06,183 INFO  [Vocabulary] --- Loading RDF model from the SKOS file...
+14:10:21,398 INFO  [Vocabulary] --- Building the Vocabulary index from the RDF model...
+14:10:27,720 INFO  [Vocabulary] --- Statistics about the vocabulary: 
+14:10:27,721 INFO  [Vocabulary] 	524672 terms in total
+14:10:27,721 INFO  [Vocabulary] 	292497 non-descriptive terms
+14:10:27,721 INFO  [Vocabulary] 	215305 terms have related terms
+14:10:27,756 INFO  [MauiTopicExtractor] -- Extracting keyphrases... 
+14:10:27,900 INFO  [MauiTopicExtractor] -- Processing document: C-1.txt
+14:10:27,900 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:27,901 INFO  [MauiTopicExtractor] Topic Services for 1 0.36159743377499376 > false
+14:10:27,901 INFO  [MauiTopicExtractor] Topic Information services 1 0.30886846536317086 > false
+14:10:27,902 INFO  [MauiTopicExtractor] Topic Web services 1 0.2628030303030303 > true
+14:10:27,902 INFO  [MauiTopicExtractor] Topic News agencies 1 0.20760291409761952 > false
+14:10:27,902 INFO  [MauiTopicExtractor] Topic Proxy 1 0.18053414563533612 > false
+14:10:27,902 INFO  [MauiTopicExtractor] Topic Computers 1 0.11434782290806704 > false
+14:10:27,902 INFO  [MauiTopicExtractor] Topic Computers 1 0.11434782290806704 > false
+14:10:27,902 INFO  [MauiTopicExtractor] Topic Information services 1 0.10886846536317085 > false
+14:10:27,902 INFO  [MauiTopicExtractor] Topic Matches 1 0.050159762562432826 > false
+14:10:27,902 INFO  [MauiTopicExtractor] Topic Semantics 1 0.032650652533403705 > false
+14:10:27,961 INFO  [MauiTopicExtractor] -- Processing document: C-14.txt
+14:10:27,961 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:27,961 INFO  [MauiTopicExtractor] Topic Detectors 1 0.34277702456273884 > false
+14:10:27,962 INFO  [MauiTopicExtractor] Topic Sensor networks 1 0.21696969696969698 > true
+14:10:27,962 INFO  [MauiTopicExtractor] Topic False alarms 1 0.20490021139491685 > false
+14:10:27,962 INFO  [MauiTopicExtractor] Topic Monitoring 1 0.15110366679115547 > false
+14:10:27,962 INFO  [MauiTopicExtractor] Topic Detectives 1 0.13406497189553757 > false
+14:10:27,962 INFO  [MauiTopicExtractor] Topic Detection 1 0.13406497189553757 > false
+14:10:27,962 INFO  [MauiTopicExtractor] Topic Regions 1 0.12884634039783632 > false
+14:10:27,962 INFO  [MauiTopicExtractor] Topic Regionalism 1 0.12884634039783632 > false
+14:10:27,962 INFO  [MauiTopicExtractor] Topic E region 1 0.12884634039783632 > false
+14:10:27,962 INFO  [MauiTopicExtractor] Topic D region 1 0.12884634039783632 > false
+14:10:27,974 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+14:10:27,974 WARN  [MauiFilter] voip conferencing system
+packet-switched network
+audio service framework
+virtual conferencing environment
+conference server
+loudness number
+partial mixing
+voice activity detection
+sufficiency of three simultaneous speaker
+three simultaneous speaker sufficiency
+vad technique
+vce
+voip
+real-time audio
+simultaneous speaker
+sip
+
+14:10:28,089 INFO  [MauiTopicExtractor] -- Processing document: C-17.txt
+14:10:28,090 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:28,090 INFO  [MauiTopicExtractor] Topic Control 1 0.13156756440113523 > false
+14:10:28,090 INFO  [MauiTopicExtractor] Topic Floors 1 0.11934089339142373 > false
+14:10:28,090 INFO  [MauiTopicExtractor] Topic Number 1 0.10791467501980187 > false
+14:10:28,090 INFO  [MauiTopicExtractor] Topic Numbers, Natural 1 0.10791467501980187 > false
+14:10:28,090 INFO  [MauiTopicExtractor] Topic Internet 1 0.06038619280357096 > false
+14:10:28,090 INFO  [MauiTopicExtractor] Topic Participation 1 0.04656741743333935 > false
+14:10:28,090 INFO  [MauiTopicExtractor] Topic Congresses and conventions 1 0.034723931834895215 > false
+14:10:28,090 INFO  [MauiTopicExtractor] Topic Packets 1 0.033749121919940436 > false
+14:10:28,090 INFO  [MauiTopicExtractor] Topic Debates and debating 1 0.032539293958793465 > false
+14:10:28,091 INFO  [MauiTopicExtractor] Topic Oratory 1 0.032539293958793465 > false
+14:10:28,163 INFO  [MauiTopicExtractor] -- Processing document: C-18.txt
+14:10:28,163 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:28,163 INFO  [MauiTopicExtractor] Topic Worms 1 0.16722172167160995 > false
+14:10:28,163 INFO  [MauiTopicExtractor] Topic Swarm intelligence 1 0.13978518488958494 > true
+14:10:28,163 INFO  [MauiTopicExtractor] Topic Social classes 1 0.07945368569038933 > false
+14:10:28,164 INFO  [MauiTopicExtractor] Topic Sharing 1 0.05507926166797844 > false
+14:10:28,164 INFO  [MauiTopicExtractor] Topic Learning 1 0.050159762562432826 > false
+14:10:28,164 INFO  [MauiTopicExtractor] Topic Learning 1 0.050159762562432826 > false
+14:10:28,164 INFO  [MauiTopicExtractor] Topic Discrimination 1 0.04636845428355653 > false
+14:10:28,164 INFO  [MauiTopicExtractor] Topic Infections 1 0.03978086795168646 > false
+14:10:28,164 INFO  [MauiTopicExtractor] Topic Infection 1 0.03978086795168646 > false
+14:10:28,164 INFO  [MauiTopicExtractor] Topic Thread 1 0.032650652533403705 > false
+14:10:28,225 INFO  [MauiTopicExtractor] -- Processing document: C-19.txt
+14:10:28,225 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:28,226 INFO  [MauiTopicExtractor] Topic Services for 1 0.19615598587800548 > false
+14:10:28,226 INFO  [MauiTopicExtractor] Topic Computer networks 1 0.18732220365561253 > false
+14:10:28,226 INFO  [MauiTopicExtractor] Topic Communication systems 1 0.11378958220358956 > false
+14:10:28,226 INFO  [MauiTopicExtractor] Topic Telecommunication systems 1 0.11378958220358956 > false
+14:10:28,227 INFO  [MauiTopicExtractor] Topic Distributed algorithms 1 0.11108606712162834 > true
+14:10:28,227 INFO  [MauiTopicExtractor] Topic Composition 1 0.08181619691738738 > false
+14:10:28,227 INFO  [MauiTopicExtractor] Topic Dynamics 1 0.06137771128038154 > false
+14:10:28,227 INFO  [MauiTopicExtractor] Topic Dynamics 1 0.05907113189548678 > false
+14:10:28,228 INFO  [MauiTopicExtractor] Topic Communication 1 0.05148691653888497 > true
+14:10:28,228 INFO  [MauiTopicExtractor] Topic Communications 1 0.05148691653888497 > true
+14:10:28,316 INFO  [MauiTopicExtractor] -- Processing document: C-20.txt
+14:10:28,316 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:28,316 INFO  [MauiTopicExtractor] Topic Data libraries 1 0.5198051948051948 > false
+14:10:28,316 INFO  [MauiTopicExtractor] Topic Migrations 1 0.25208745911907504 > false
+14:10:28,316 INFO  [MauiTopicExtractor] Topic Migration 1 0.25208745911907504 > false
+14:10:28,316 INFO  [MauiTopicExtractor] Topic Living alone 1 0.1391477802558293 > false
+14:10:28,316 INFO  [MauiTopicExtractor] Topic Unmarried couples 1 0.1391477802558293 > false
+14:10:28,316 INFO  [MauiTopicExtractor] Topic Boat living 1 0.1391477802558293 > false
+14:10:28,316 INFO  [MauiTopicExtractor] Topic Color centers 1 0.13794772288631557 > false
+14:10:28,317 INFO  [MauiTopicExtractor] Topic Internet 1 0.1313686012513524 > false
+14:10:28,317 INFO  [MauiTopicExtractor] Topic L systems 1 0.10791467501980187 > false
+14:10:28,317 INFO  [MauiTopicExtractor] Topic Information retrieval 1 0.10275877043615203 > false
+14:10:28,402 INFO  [MauiTopicExtractor] -- Processing document: C-22.txt
+14:10:28,403 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:28,403 INFO  [MauiTopicExtractor] Topic Versification 1 0.24316635438401685 > false
+14:10:28,403 INFO  [MauiTopicExtractor] Topic Mobilization 1 0.1239186753605579 > false
+14:10:28,403 INFO  [MauiTopicExtractor] Topic Metric system 1 0.11095138813135308 > false
+14:10:28,403 INFO  [MauiTopicExtractor] Topic Migration, Internal 1 0.059508971659342456 > false
+14:10:28,403 INFO  [MauiTopicExtractor] Topic Proxy 1 0.052842304992675795 > true
+14:10:28,403 INFO  [MauiTopicExtractor] Topic Services for 1 0.04656741743333935 > false
+14:10:28,403 INFO  [MauiTopicExtractor] Topic Adaptations 1 0.0338463403978363 > true
+14:10:28,403 INFO  [MauiTopicExtractor] Topic Adaptation 1 0.0338463403978363 > true
+14:10:28,404 INFO  [MauiTopicExtractor] Topic Adaptations 1 0.0338463403978363 > true
+14:10:28,405 INFO  [MauiTopicExtractor] Topic Collectors and collecting 1 0.030889167773725183 > false
+14:10:28,495 INFO  [MauiTopicExtractor] -- Processing document: C-23.txt
+14:10:28,495 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:28,495 INFO  [MauiTopicExtractor] Topic Information services 1 0.309563698411345 > false
+14:10:28,495 INFO  [MauiTopicExtractor] Topic Information services 1 0.2068609957086424 > false
+14:10:28,496 INFO  [MauiTopicExtractor] Topic Parallelism 1 0.14508640300150524 > false
+14:10:28,497 INFO  [MauiTopicExtractor] Topic Logic 1 0.13669173755765945 > false
+14:10:28,498 INFO  [MauiTopicExtractor] Topic Resourcefulness 1 0.13156756440113523 > false
+14:10:28,498 INFO  [MauiTopicExtractor] Topic Dynamics 1 0.123489826436092 > false
+14:10:28,498 INFO  [MauiTopicExtractor] Topic High performance computing 1 0.12279908737234038 > false
+14:10:28,499 INFO  [MauiTopicExtractor] Topic Draft 1 0.108599695130937 > false
+14:10:28,499 INFO  [MauiTopicExtractor] Topic Information retrieval 1 0.10682113037557954 > false
+14:10:28,499 INFO  [MauiTopicExtractor] Topic Services for 1 0.07007118267237314 > false
+14:10:28,601 INFO  [MauiTopicExtractor] -- Processing document: C-27.txt
+14:10:28,601 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:28,602 INFO  [MauiTopicExtractor] Topic Wireless sensor networks 1 0.6741919191919192 > true
+14:10:28,602 INFO  [MauiTopicExtractor] Topic Sensor networks 1 0.47419191919191916 > true
+14:10:28,602 INFO  [MauiTopicExtractor] Topic Cost accounting 1 0.224321187589541 > false
+14:10:28,602 INFO  [MauiTopicExtractor] Topic Costs 1 0.224321187589541 > false
+14:10:28,602 INFO  [MauiTopicExtractor] Topic Beacons 1 0.13617563832600912 > false
+14:10:28,602 INFO  [MauiTopicExtractor] Topic Cost 1 0.12432118758954103 > false
+14:10:28,602 INFO  [MauiTopicExtractor] Topic Ciphers 1 0.052186567287757765 > false
+14:10:28,602 INFO  [MauiTopicExtractor] Topic Dependency 1 0.04636845428355653 > false
+14:10:28,602 INFO  [MauiTopicExtractor] Topic Discrimination 1 0.04636845428355653 > false
+14:10:28,602 INFO  [MauiTopicExtractor] Topic Detectors 1 0.038808770594484884 > false
+14:10:28,722 INFO  [MauiTopicExtractor] -- Processing document: C-28.txt
+14:10:28,722 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:28,722 INFO  [MauiTopicExtractor] Topic Scheduling 1 0.1355199006210911 > false
+14:10:28,722 INFO  [MauiTopicExtractor] Topic Slaveholders 1 0.11008680216025528 > false
+14:10:28,722 INFO  [MauiTopicExtractor] Topic Services for 1 0.07978939219206245 > false
+14:10:28,722 INFO  [MauiTopicExtractor] Topic Strategy 1 0.05907113189548678 > false
+14:10:28,722 INFO  [MauiTopicExtractor] Topic Parallelism 1 0.05415163278994117 > false
+14:10:28,722 INFO  [MauiTopicExtractor] Topic Tallies 1 0.04636845428355653 > false
+14:10:28,722 INFO  [MauiTopicExtractor] Topic Scores 1 0.04636845428355653 > false
+14:10:28,722 INFO  [MauiTopicExtractor] Topic Slaves 1 0.03696407319153048 > false
+14:10:28,722 INFO  [MauiTopicExtractor] Topic Blasting 1 0.03696407319153048 > false
+14:10:28,723 INFO  [MauiTopicExtractor] Topic Databases 1 0.028042968456472257 > false
+14:10:28,732 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+14:10:28,732 WARN  [MauiFilter] conflex-g
+omnirpc
+conformational space search
+bio-molecule
+rpc module
+initialization procedure
+mpus
+pc cluster
+grid computing
+grid rpc system
+conformational space search
+molecular mechanic
+automatic initializable module
+computational chemistry
+
+14:10:28,984 INFO  [MauiTopicExtractor] -- Processing document: C-29.txt
+14:10:28,984 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:28,984 INFO  [MauiTopicExtractor] Topic Structural optimization 1 0.30490021139491685 > false
+14:10:28,984 INFO  [MauiTopicExtractor] Topic Conformity 1 0.13391056638561702 > false
+14:10:28,984 INFO  [MauiTopicExtractor] Topic Conformation 1 0.13004639776735005 > false
+14:10:28,984 INFO  [MauiTopicExtractor] Topic Computers 1 0.12041467501980188 > false
+14:10:28,984 INFO  [MauiTopicExtractor] Topic Computers 1 0.12041467501980188 > false
+14:10:28,984 INFO  [MauiTopicExtractor] Topic Data transmission systems 1 0.10956369841134506 > false
+14:10:28,985 INFO  [MauiTopicExtractor] Topic Parallelism 1 0.052186567287757765 > false
+14:10:28,985 INFO  [MauiTopicExtractor] Topic Atomism 1 0.04636845428355653 > false
+14:10:28,985 INFO  [MauiTopicExtractor] Topic Atomizers 1 0.04636845428355653 > false
+14:10:28,985 INFO  [MauiTopicExtractor] Topic Atomization 1 0.04636845428355653 > false
+14:10:29,219 INFO  [MauiTopicExtractor] -- Processing document: C-3.txt
+14:10:29,220 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:29,220 INFO  [MauiTopicExtractor] Topic Parallelism 1 0.15757118267237313 > false
+14:10:29,220 INFO  [MauiTopicExtractor] Topic High performance computing 1 0.09666627797327713 > false
+14:10:29,220 INFO  [MauiTopicExtractor] Topic Computer systems 1 0.08006630939770934 > false
+14:10:29,220 INFO  [MauiTopicExtractor] Topic Resourcefulness 1 0.06508564065194741 > false
+14:10:29,220 INFO  [MauiTopicExtractor] Topic Monitoring 1 0.052186567287757765 > false
+14:10:29,220 INFO  [MauiTopicExtractor] Topic Scheduling 1 0.052186567287757765 > false
+14:10:29,220 INFO  [MauiTopicExtractor] Topic Coordinates 1 0.052186567287757765 > false
+14:10:29,221 INFO  [MauiTopicExtractor] Topic Adaptations 1 0.042947722886315556 > false
+14:10:29,221 INFO  [MauiTopicExtractor] Topic Adaptation 1 0.042947722886315556 > false
+14:10:29,221 INFO  [MauiTopicExtractor] Topic Adaptations 1 0.042947722886315556 > false
+14:10:29,617 INFO  [MauiTopicExtractor] -- Processing document: C-30.txt
+14:10:29,617 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:29,617 INFO  [MauiTopicExtractor] Topic Information retrieval 1 0.20161274801879342 > false
+14:10:29,617 INFO  [MauiTopicExtractor] Topic Trees 1 0.1700690293562663 > false
+14:10:29,617 INFO  [MauiTopicExtractor] Topic Trees 1 0.1700690293562663 > false
+14:10:29,617 INFO  [MauiTopicExtractor] Topic Bullets 1 0.14686882762137377 > true
+14:10:29,617 INFO  [MauiTopicExtractor] Topic Internet 1 0.12401566007488182 > false
+14:10:29,618 INFO  [MauiTopicExtractor] Topic Amines 1 0.10935304153638223 > false
+14:10:29,618 INFO  [MauiTopicExtractor] Topic Amination 1 0.10935304153638223 > false
+14:10:29,618 INFO  [MauiTopicExtractor] Topic Communication 1 0.10238265674763455 > false
+14:10:29,618 INFO  [MauiTopicExtractor] Topic Communications 1 0.10238265674763455 > false
+14:10:29,618 INFO  [MauiTopicExtractor] Topic Communities 1 0.10238265674763455 > false
+14:10:29,734 INFO  [MauiTopicExtractor] -- Processing document: C-31.txt
+14:10:29,734 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:29,734 INFO  [MauiTopicExtractor] Topic Age groups 1 0.20956369841134506 > false
+14:10:29,734 INFO  [MauiTopicExtractor] Topic Indexing 1 0.18673569602293302 > false
+14:10:29,734 INFO  [MauiTopicExtractor] Topic Web search engines 1 0.18351604562981683 > false
+14:10:29,734 INFO  [MauiTopicExtractor] Topic Archives 1 0.16006902935626632 > true
+14:10:29,734 INFO  [MauiTopicExtractor] Topic Government publications 1 0.09340236268959967 > true
+14:10:29,735 INFO  [MauiTopicExtractor] Topic Legal documents 1 0.09340236268959967 > true
+14:10:29,735 INFO  [MauiTopicExtractor] Topic Charters 1 0.09340236268959967 > true
+14:10:29,735 INFO  [MauiTopicExtractor] Topic Diplomatics 1 0.09340236268959967 > true
+14:10:29,735 INFO  [MauiTopicExtractor] Topic Deeds 1 0.09340236268959967 > true
+14:10:29,735 INFO  [MauiTopicExtractor] Topic Indexers 1 0.086735696022933 > false
+14:10:29,746 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+14:10:29,746 WARN  [MauiFilter] object storage system
+collaborative strong-consistency application
+wide-area network
+cooperative web caching
+fine-grain sharing
+transaction
+fault-tolerance property
+buddycache
+dominant performance cost
+optimistic system
+peer fetch
+multi-user oo7 benchmark
+cooperative cache
+fine-grain share
+fault-tolerance
+
+14:10:29,798 INFO  [MauiTopicExtractor] -- Processing document: C-32.txt
+14:10:29,798 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:29,799 INFO  [MauiTopicExtractor] Topic Age groups 1 0.4076029140976196 > false
+14:10:29,799 INFO  [MauiTopicExtractor] Topic Objectivity 1 0.24316635438401685 > false
+14:10:29,799 INFO  [MauiTopicExtractor] Topic Filing systems 1 0.11815457572965889 > false
+14:10:29,799 INFO  [MauiTopicExtractor] Topic Work environment 1 0.11648907286572881 > false
+14:10:29,799 INFO  [MauiTopicExtractor] Topic Distributed shared memory 1 0.10967571452469493 > false
+14:10:29,799 INFO  [MauiTopicExtractor] Topic Work sharing 1 0.10967250248413148 > false
+14:10:29,799 INFO  [MauiTopicExtractor] Topic Sharing 1 0.09100734091001117 > false
+14:10:29,799 INFO  [MauiTopicExtractor] Topic Cost accounting 1 0.04656741743333935 > false
+14:10:29,799 INFO  [MauiTopicExtractor] Topic Costs 1 0.04656741743333935 > false
+14:10:29,799 INFO  [MauiTopicExtractor] Topic Cost 1 0.03284961568318653 > false
+14:10:29,821 INFO  [MauiTopicExtractor] -- Processing document: C-33.txt
+14:10:29,821 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:29,822 INFO  [MauiTopicExtractor] Topic Negotiation 1 0.3846552395555718 > true
+14:10:29,822 INFO  [MauiTopicExtractor] Topic Ubiquitous computing 1 0.23317340067340067 > true
+14:10:29,822 INFO  [MauiTopicExtractor] Topic Context 1 0.16884381058658798 > false
+14:10:29,822 INFO  [MauiTopicExtractor] Topic Novell software 1 0.1080733793414633 > false
+14:10:29,822 INFO  [MauiTopicExtractor] Topic Utilization 1 0.05710606639330338 > false
+14:10:29,822 INFO  [MauiTopicExtractor] Topic Public utilities 1 0.05710606639330338 > false
+14:10:29,822 INFO  [MauiTopicExtractor] Topic Concessions 1 0.052842304992675795 > false
+14:10:29,822 INFO  [MauiTopicExtractor] Topic Contracts 1 0.052186567287757765 > false
+14:10:29,822 INFO  [MauiTopicExtractor] Topic Deadlines 1 0.04996079941265 > false
+14:10:29,822 INFO  [MauiTopicExtractor] Topic Home automation 1 0.03978518488958493 > false
+14:10:29,851 INFO  [MauiTopicExtractor] -- Processing document: C-34.txt
+14:10:29,851 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:29,851 INFO  [MauiTopicExtractor] Topic Sensor networks 1 0.416969696969697 > true
+14:10:29,851 INFO  [MauiTopicExtractor] Topic Detectors 1 0.32457795378194043 > false
+14:10:29,852 INFO  [MauiTopicExtractor] Topic Wireless sensor networks 1 0.22067340067340066 > false
+14:10:29,852 INFO  [MauiTopicExtractor] Topic Communication 1 0.13156756440113523 > false
+14:10:29,852 INFO  [MauiTopicExtractor] Topic Communications 1 0.13156756440113523 > false
+14:10:29,852 INFO  [MauiTopicExtractor] Topic Communication 1 0.13156756440113523 > false
+14:10:29,852 INFO  [MauiTopicExtractor] Topic Communism 1 0.13156756440113523 > false
+14:10:29,852 INFO  [MauiTopicExtractor] Topic Communities 1 0.13156756440113523 > false
+14:10:29,852 INFO  [MauiTopicExtractor] Topic Communal living 1 0.13156756440113523 > false
+14:10:29,852 INFO  [MauiTopicExtractor] Topic Communalism 1 0.13156756440113523 > false
+14:10:29,903 INFO  [MauiTopicExtractor] -- Processing document: C-36.txt
+14:10:29,903 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:29,903 INFO  [MauiTopicExtractor] Topic Access control 1 0.22377344877344876 > false
+14:10:29,903 INFO  [MauiTopicExtractor] Topic Access control 1 0.22377344877344876 > false
+14:10:29,903 INFO  [MauiTopicExtractor] Topic Control 1 0.19615598587800548 > false
+14:10:29,903 INFO  [MauiTopicExtractor] Topic Ciphers 1 0.14913860128897208 > false
+14:10:29,903 INFO  [MauiTopicExtractor] Topic Services for 1 0.1313686012513524 > false
+14:10:29,903 INFO  [MauiTopicExtractor] Topic Securities 1 0.12481287809329786 > false
+14:10:29,904 INFO  [MauiTopicExtractor] Topic Publishers and publishing 1 0.11008680216025528 > false
+14:10:29,904 INFO  [MauiTopicExtractor] Topic Trust 1 0.04996079941265 > false
+14:10:29,904 INFO  [MauiTopicExtractor] Topic Family trusts 1 0.04996079941265 > false
+14:10:29,904 INFO  [MauiTopicExtractor] Topic Ciphers 1 0.04636845428355653 > false
+14:10:29,941 INFO  [MauiTopicExtractor] -- Processing document: C-38.txt
+14:10:29,941 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:29,941 INFO  [MauiTopicExtractor] Topic Mechanics 1 0.05507926166797844 > false
+14:10:29,941 INFO  [MauiTopicExtractor] Topic Mechanization 1 0.05507926166797844 > false
+14:10:29,941 INFO  [MauiTopicExtractor] Topic Trees 1 0.05415163278994117 > false
+14:10:29,941 INFO  [MauiTopicExtractor] Topic Trees 1 0.05415163278994117 > false
+14:10:29,942 INFO  [MauiTopicExtractor] Topic Connectives 1 0.05415163278994117 > false
+14:10:29,942 INFO  [MauiTopicExtractor] Topic Participation 1 0.052186567287757765 > false
+14:10:29,942 INFO  [MauiTopicExtractor] Topic Utilization 1 0.04656741743333935 > false
+14:10:29,942 INFO  [MauiTopicExtractor] Topic Public utilities 1 0.04656741743333935 > false
+14:10:29,942 INFO  [MauiTopicExtractor] Topic Receivers 1 0.0338463403978363 > false
+14:10:29,942 INFO  [MauiTopicExtractor] Topic Control 1 0.031702262676997314 > false
+14:10:29,951 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+14:10:29,951 WARN  [MauiFilter] end-to-end model
+sample-based codec
+loss recovery and control
+loss sensitivity
+network support for real-time multimedia
+quality of service
+service quality
+end-to-end loss recovery
+voip traffic
+intra-flow loss control
+packet-level metric
+general markov model
+sensitivity of voip traffic
+voip traffic sensitivity
+queue management algorithm
+frame-based codec
+voice over ip
+loss concealment
+loss metric
+objective speech quality measurement
+queue management
+differentiate service
+
+14:10:29,991 INFO  [MauiTopicExtractor] -- Processing document: C-4.txt
+14:10:29,991 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:29,991 INFO  [MauiTopicExtractor] Topic Losses 1 0.36159743377499376 > false
+14:10:29,991 INFO  [MauiTopicExtractor] Topic Packets 1 0.1600856437301629 > false
+14:10:29,992 INFO  [MauiTopicExtractor] Topic Markov processes 1 0.11702967597704439 > false
+14:10:29,992 INFO  [MauiTopicExtractor] Topic Loss control 1 0.108599695130937 > false
+14:10:29,992 INFO  [MauiTopicExtractor] Topic Correlators 1 0.061178748130598724 > false
+14:10:29,992 INFO  [MauiTopicExtractor] Topic Probabilities 1 0.05930506170773196 > false
+14:10:29,992 INFO  [MauiTopicExtractor] Topic Voice 1 0.03196384421109585 > false
+14:10:29,992 INFO  [MauiTopicExtractor] Topic Internet 1 0.03150329952721449 > false
+14:10:29,992 INFO  [MauiTopicExtractor] Topic Services for 1 0.03150329952721449 > false
+14:10:29,992 INFO  [MauiTopicExtractor] Topic Voice 1 0.029796266797616783 > false
+14:10:30,003 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+14:10:30,003 WARN  [MauiFilter] edge indexing
+dynamic virtual environment
+game-based application
+mutable virtual content
+spatial database
+spatial indexing method
+real-time visibility test
+object-initiated view model
+object popping
+3d spatial extension
+3d object stream
+object pop problem
+spatial index
+visibility model
+
+14:10:30,045 INFO  [MauiTopicExtractor] -- Processing document: C-40.txt
+14:10:30,045 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:30,045 INFO  [MauiTopicExtractor] Topic Indexes 1 0.2982847214993994 > false
+14:10:30,045 INFO  [MauiTopicExtractor] Topic Indexes 1 0.2615974337749938 > false
+14:10:30,045 INFO  [MauiTopicExtractor] Topic Indexing 1 0.2615974337749938 > false
+14:10:30,045 INFO  [MauiTopicExtractor] Topic Indexers 1 0.2615974337749938 > false
+14:10:30,046 INFO  [MauiTopicExtractor] Topic Virtual reality 1 0.21049145206314135 > false
+14:10:30,046 INFO  [MauiTopicExtractor] Topic Information retrieval 1 0.20147671915410076 > false
+14:10:30,046 INFO  [MauiTopicExtractor] Topic Computer science 1 0.08006630939770934 > false
+14:10:30,046 INFO  [MauiTopicExtractor] Topic Cells 1 0.030932327159784445 > false
+14:10:30,046 INFO  [MauiTopicExtractor] Topic B cells 1 0.030932327159784445 > false
+14:10:30,046 INFO  [MauiTopicExtractor] Topic T cells 1 0.030932327159784445 > false
+14:10:30,053 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+14:10:30,053 WARN  [MauiFilter] spectrum content management system
+continuous media storage
+home-networking scenario
+application program interface
+content distribution network
+uniform resource locator
+policy manager
+network enabled dvr
+high-performance database system
+carrier-grade spectrum manager
+distribute content management
+
+14:10:30,085 INFO  [MauiTopicExtractor] -- Processing document: C-6.txt
+14:10:30,085 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:30,086 INFO  [MauiTopicExtractor] Topic Contentment 1 0.13497406280462848 > false
+14:10:30,086 INFO  [MauiTopicExtractor] Topic Executives 1 0.1327105090161033 > false
+14:10:30,086 INFO  [MauiTopicExtractor] Topic Video recording 1 0.13186099570864235 > false
+14:10:30,086 INFO  [MauiTopicExtractor] Topic Managing your boss 1 0.12884634039783632 > false
+14:10:30,086 INFO  [MauiTopicExtractor] Topic Management 1 0.12884634039783632 > false
+14:10:30,086 INFO  [MauiTopicExtractor] Topic Management 1 0.12556765187324614 > false
+14:10:30,086 INFO  [MauiTopicExtractor] Topic Architecture 1 0.11434782290806704 > false
+14:10:30,087 INFO  [MauiTopicExtractor] Topic Functionals 1 0.10797309476567599 > false
+14:10:30,087 INFO  [MauiTopicExtractor] Topic Functions 1 0.10797309476567599 > false
+14:10:30,087 INFO  [MauiTopicExtractor] Topic Digital video 1 0.03978518488958493 > false
+14:10:30,095 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+14:10:30,095 WARN  [MauiFilter] operational transformation
+cot
+context-based ot
+causal-dependency
+concurrency condition
+concurrency relation
+inverse operation
+document state
+original operation
+transformed operation
+inverse cluster
+vector representation of operation context
+operation context vector representation
+history buffer
+exclusion transformation
+operation context
+ot
+context-base ot
+consistency maintenance
+undo
+group editor
+distribute application
+
+14:10:30,130 INFO  [MauiTopicExtractor] -- Processing document: C-8.txt
+14:10:30,130 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:30,130 INFO  [MauiTopicExtractor] Topic Normal operators 1 0.20490021139491685 > false
+14:10:30,130 INFO  [MauiTopicExtractor] Topic Fourier-Bros-Iagolnitzer transformations 1 0.14407544529310773 > false
+14:10:30,130 INFO  [MauiTopicExtractor] Topic Operator theory 1 0.11008680216025528 > false
+14:10:30,130 INFO  [MauiTopicExtractor] Topic L systems 1 0.10791467501980187 > false
+14:10:30,130 INFO  [MauiTopicExtractor] Topic Context 1 0.09615598587800547 > false
+14:10:30,130 INFO  [MauiTopicExtractor] Topic Government publications 1 0.09340236268959967 > false
+14:10:30,130 INFO  [MauiTopicExtractor] Topic Legal documents 1 0.09340236268959967 > false
+14:10:30,130 INFO  [MauiTopicExtractor] Topic Charters 1 0.09340236268959967 > false
+14:10:30,130 INFO  [MauiTopicExtractor] Topic Diplomatics 1 0.09340236268959967 > false
+14:10:30,131 INFO  [MauiTopicExtractor] Topic Social interaction 1 0.0920296759770444 > false
+14:10:30,160 INFO  [MauiTopicExtractor] -- Processing document: C-86.txt
+14:10:30,160 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:30,160 INFO  [MauiTopicExtractor] Topic Resource allocation 1 0.538888888888889 > false
+14:10:30,160 INFO  [MauiTopicExtractor] Topic Auctions 1 0.26006902935626636 > false
+14:10:30,160 INFO  [MauiTopicExtractor] Topic Bank accounts 1 0.20956369841134506 > false
+14:10:30,160 INFO  [MauiTopicExtractor] Topic Electronic commerce 1 0.18339407833322385 > false
+14:10:30,160 INFO  [MauiTopicExtractor] Topic Resourcefulness 1 0.16884381058658798 > false
+14:10:30,160 INFO  [MauiTopicExtractor] Topic Auctioneers 1 0.16006902935626632 > false
+14:10:30,160 INFO  [MauiTopicExtractor] Topic Strategy 1 0.14528536615128806 > false
+14:10:30,160 INFO  [MauiTopicExtractor] Topic Pricing 1 0.12599534612078864 > false
+14:10:30,160 INFO  [MauiTopicExtractor] Topic Games 1 0.12297393580750664 > false
+14:10:30,160 INFO  [MauiTopicExtractor] Topic Sensor networks 1 0.08188407135884561 > false
+14:10:30,190 INFO  [MauiTopicExtractor] -- Processing document: C-9.txt
+14:10:30,190 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:30,190 INFO  [MauiTopicExtractor] Topic Services for 1 0.1761967517630585 > false
+14:10:30,191 INFO  [MauiTopicExtractor] Topic Euthenics 1 0.13794772288631557 > false
+14:10:30,191 INFO  [MauiTopicExtractor] Topic Nature and nurture 1 0.13794772288631557 > false
+14:10:30,191 INFO  [MauiTopicExtractor] Topic Resourcefulness 1 0.086735696022933 > true
+14:10:30,191 INFO  [MauiTopicExtractor] Topic Ecology 1 0.042947722886315556 > false
+14:10:30,191 INFO  [MauiTopicExtractor] Topic Migrations 1 0.03696407319153048 > false
+14:10:30,191 INFO  [MauiTopicExtractor] Topic Migration 1 0.03696407319153048 > false
+14:10:30,191 INFO  [MauiTopicExtractor] Topic Decentralization 1 0.02891867536055787 > false
+14:10:30,191 INFO  [MauiTopicExtractor] Topic Objectivity 1 0.028042968456472257 > false
+14:10:30,191 INFO  [MauiTopicExtractor] Topic Managing your boss 1 0.028042968456472257 > false
+14:10:30,215 INFO  [MauiTopicExtractor] -- Processing document: H-10.txt
+14:10:30,216 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:30,216 INFO  [MauiTopicExtractor] Topic Document clustering 1 0.41198817106460417 > true
+14:10:30,216 INFO  [MauiTopicExtractor] Topic Information retrieval 1 0.2483115468409586 > false
+14:10:30,216 INFO  [MauiTopicExtractor] Topic Machine learning 1 0.19171276694129222 > false
+14:10:30,216 INFO  [MauiTopicExtractor] Topic Government publications 1 0.16895037495146434 > false
+14:10:30,216 INFO  [MauiTopicExtractor] Topic Legal documents 1 0.16895037495146434 > false
+14:10:30,216 INFO  [MauiTopicExtractor] Topic Charters 1 0.15228370828479765 > false
+14:10:30,216 INFO  [MauiTopicExtractor] Topic Data mining 1 0.11801099134119783 > false
+14:10:30,216 INFO  [MauiTopicExtractor] Topic Archives 1 0.07728370828479765 > false
+14:10:30,216 INFO  [MauiTopicExtractor] Topic Deeds 1 0.06895037495146432 > false
+14:10:30,216 INFO  [MauiTopicExtractor] Topic Classifiers 1 0.05415163278994117 > false
+14:10:30,248 INFO  [MauiTopicExtractor] -- Processing document: H-11.txt
+14:10:30,248 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:30,248 INFO  [MauiTopicExtractor] Topic Machine learning 1 0.502228203410314 > false
+14:10:30,248 INFO  [MauiTopicExtractor] Topic Active learning 1 0.3378030303030303 > true
+14:10:30,248 INFO  [MauiTopicExtractor] Topic Self-perception 1 0.24605571308732904 > false
+14:10:30,248 INFO  [MauiTopicExtractor] Topic Imaging 1 0.24605571308732904 > false
+14:10:30,248 INFO  [MauiTopicExtractor] Topic Imagist poetry 1 0.24605571308732904 > false
+14:10:30,249 INFO  [MauiTopicExtractor] Topic Experimental design 1 0.20886846536317086 > false
+14:10:30,249 INFO  [MauiTopicExtractor] Topic Relevance 1 0.17850734091001116 > false
+14:10:30,249 INFO  [MauiTopicExtractor] Topic Design 1 0.1565031301340007 > false
+14:10:30,249 INFO  [MauiTopicExtractor] Topic Designers 1 0.13566979680066735 > false
+14:10:30,249 INFO  [MauiTopicExtractor] Topic Design 1 0.13566979680066735 > false
+14:10:30,315 INFO  [MauiTopicExtractor] -- Processing document: H-12.txt
+14:10:30,315 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:30,315 INFO  [MauiTopicExtractor] Topic Web search engines 1 0.36517094017094015 > false
+14:10:30,315 INFO  [MauiTopicExtractor] Topic Search engines 1 0.26696969696969697 > true
+14:10:30,315 INFO  [MauiTopicExtractor] Topic Archives 1 0.2660660328088102 > false
+14:10:30,315 INFO  [MauiTopicExtractor] Topic Charters 1 0.2510660328088102 > false
+14:10:30,316 INFO  [MauiTopicExtractor] Topic Diplomatics 1 0.2410660328088102 > false
+14:10:30,316 INFO  [MauiTopicExtractor] Topic Government publications 1 0.19106603280881015 > false
+14:10:30,316 INFO  [MauiTopicExtractor] Topic Legal documents 1 0.19106603280881015 > false
+14:10:30,316 INFO  [MauiTopicExtractor] Topic Internet searching 1 0.18810759475176056 > false
+14:10:30,316 INFO  [MauiTopicExtractor] Topic Deeds 1 0.17023269947547678 > false
+14:10:30,316 INFO  [MauiTopicExtractor] Topic Questions and answers 1 0.13883823142289548 > false
+14:10:30,363 INFO  [MauiTopicExtractor] -- Processing document: H-13.txt
+14:10:30,363 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:30,363 INFO  [MauiTopicExtractor] Topic Internet searching 1 0.34919191919191916 > true
+14:10:30,363 INFO  [MauiTopicExtractor] Topic Web search engines 1 0.3388888888888889 > true
+14:10:30,363 INFO  [MauiTopicExtractor] Topic Search engines 1 0.30047397047397045 > false
+14:10:30,363 INFO  [MauiTopicExtractor] Topic Titles 1 0.1239186753605579 > false
+14:10:30,363 INFO  [MauiTopicExtractor] Topic Web sites 1 0.11763147198074866 > false
+14:10:30,363 INFO  [MauiTopicExtractor] Topic Human-computer interaction 1 0.11492876927804596 > false
+14:10:30,363 INFO  [MauiTopicExtractor] Topic Information retrieval 1 0.10372499196011117 > false
+14:10:30,363 INFO  [MauiTopicExtractor] Topic Charters 1 0.06218656728775775 > false
+14:10:30,363 INFO  [MauiTopicExtractor] Topic Government publications 1 0.052186567287757765 > false
+14:10:30,363 INFO  [MauiTopicExtractor] Topic Legal documents 1 0.052186567287757765 > false
+14:10:30,371 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+14:10:30,371 WARN  [MauiFilter] popular destination
+web search interaction
+improving query
+retrieval performance
+related query
+information-seeking experience
+query trail
+session trail
+lookup-based approach
+log-based evaluation
+user study
+search destination
+enhance web search
+
+14:10:30,405 INFO  [MauiTopicExtractor] -- Processing document: H-14.txt
+14:10:30,405 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:30,405 INFO  [MauiTopicExtractor] Topic Internet searching 1 0.34919191919191916 > false
+14:10:30,405 INFO  [MauiTopicExtractor] Topic Web search engines 1 0.3388888888888889 > false
+14:10:30,405 INFO  [MauiTopicExtractor] Topic Questions and answers 1 0.32168859507862824 > false
+14:10:30,405 INFO  [MauiTopicExtractor] Topic Search engines 1 0.19567340067340067 > false
+14:10:30,405 INFO  [MauiTopicExtractor] Topic Social classes 1 0.12599534612078864 > false
+14:10:30,405 INFO  [MauiTopicExtractor] Topic Information retrieval 1 0.1174327123681695 > false
+14:10:30,405 INFO  [MauiTopicExtractor] Topic Likert scale 1 0.11008680216025528 > false
+14:10:30,405 INFO  [MauiTopicExtractor] Topic Popularity 1 0.038020057849037135 > false
+14:10:30,406 INFO  [MauiTopicExtractor] Topic Trails 1 0.03696407319153048 > false
+14:10:30,406 INFO  [MauiTopicExtractor] Topic Perception 1 0.023115303419193822 > false
+14:10:30,439 INFO  [MauiTopicExtractor] -- Processing document: H-16.txt
+14:10:30,439 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:30,439 INFO  [MauiTopicExtractor] Topic Search engines 1 0.47419191919191916 > false
+14:10:30,439 INFO  [MauiTopicExtractor] Topic Web search engines 1 0.3458898944193062 > true
+14:10:30,439 INFO  [MauiTopicExtractor] Topic Dynamics 1 0.13156756440113523 > false
+14:10:30,439 INFO  [MauiTopicExtractor] Topic Dynamics 1 0.13156756440113523 > false
+14:10:30,439 INFO  [MauiTopicExtractor] Topic Indexes 1 0.1313686012513524 > false
+14:10:30,439 INFO  [MauiTopicExtractor] Topic Indexing 1 0.1313686012513524 > false
+14:10:30,440 INFO  [MauiTopicExtractor] Topic Indexers 1 0.1313686012513524 > false
+14:10:30,440 INFO  [MauiTopicExtractor] Topic Questions and answers 1 0.12974054313057629 > false
+14:10:30,440 INFO  [MauiTopicExtractor] Topic Information retrieval 1 0.12713906380826706 > false
+14:10:30,440 INFO  [MauiTopicExtractor] Topic Cache memory 1 0.11008680216025528 > false
+14:10:30,826 INFO  [MauiTopicExtractor] -- Processing document: H-17.txt
+14:10:30,826 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:30,826 INFO  [MauiTopicExtractor] Topic Indexes 1 0.3857847214993994 > false
+14:10:30,826 INFO  [MauiTopicExtractor] Topic Web search engines 1 0.3458898944193062 > true
+14:10:30,827 INFO  [MauiTopicExtractor] Topic Information retrieval 1 0.3070316164069611 > false
+14:10:30,827 INFO  [MauiTopicExtractor] Topic Search engines 1 0.2741919191919192 > false
+14:10:30,827 INFO  [MauiTopicExtractor] Topic Charters 1 0.24773269947547688 > false
+14:10:30,827 INFO  [MauiTopicExtractor] Topic Diplomatics 1 0.24773269947547688 > false
+14:10:30,827 INFO  [MauiTopicExtractor] Topic Archives 1 0.24773269947547688 > false
+14:10:30,827 INFO  [MauiTopicExtractor] Topic Questions and answers 1 0.2307862833709474 > false
+14:10:30,827 INFO  [MauiTopicExtractor] Topic Indexes 1 0.16895037495146434 > false
+14:10:30,827 INFO  [MauiTopicExtractor] Topic Indexers 1 0.16895037495146434 > false
+14:10:30,835 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+14:10:30,835 WARN  [MauiFilter] topic detection
+tracking
+topic segmentation
+local and sequential information of document
+document local and sequential information
+single document
+multiple document
+wmus
+shared topic
+optimal boundary
+single-document segmentation
+multi-document segmentation
+cue term
+stop word
+term weight
+performance of topic segmentation
+topic segmentation performance
+multi-document segmentation
+share topic detection
+topic alignment
+mutual information
+
+14:10:30,863 INFO  [MauiTopicExtractor] -- Processing document: H-18.txt
+14:10:30,863 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:30,863 INFO  [MauiTopicExtractor] Topic Dynamic programming 1 0.20537388867932407 > false
+14:10:30,863 INFO  [MauiTopicExtractor] Topic Markov processes 1 0.19666627797327713 > false
+14:10:30,863 INFO  [MauiTopicExtractor] Topic Archives 1 0.17717714391992123 > false
+14:10:30,864 INFO  [MauiTopicExtractor] Topic Government publications 1 0.16884381058658798 > false
+14:10:30,864 INFO  [MauiTopicExtractor] Topic Legal documents 1 0.16884381058658798 > false
+14:10:30,864 INFO  [MauiTopicExtractor] Topic Charters 1 0.15217714391992124 > false
+14:10:30,864 INFO  [MauiTopicExtractor] Topic Diplomatics 1 0.15217714391992124 > false
+14:10:30,864 INFO  [MauiTopicExtractor] Topic Information retrieval 1 0.11501785168705494 > false
+14:10:30,864 INFO  [MauiTopicExtractor] Topic Hidden Markov models 1 0.09159079964469927 > false
+14:10:30,864 INFO  [MauiTopicExtractor] Topic Deeds 1 0.08134381058658793 > false
+14:10:30,892 INFO  [MauiTopicExtractor] -- Processing document: H-19.txt
+14:10:30,893 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:30,893 INFO  [MauiTopicExtractor] Topic Detectives 1 0.13794772288631557 > false
+14:10:30,893 INFO  [MauiTopicExtractor] Topic Detection 1 0.13794772288631557 > false
+14:10:30,893 INFO  [MauiTopicExtractor] Topic Charters 1 0.06218656728775775 > false
+14:10:30,893 INFO  [MauiTopicExtractor] Topic Archives 1 0.05415163278994117 > false
+14:10:30,893 INFO  [MauiTopicExtractor] Topic Government publications 1 0.052186567287757765 > false
+14:10:30,893 INFO  [MauiTopicExtractor] Topic Legal documents 1 0.052186567287757765 > false
+14:10:30,893 INFO  [MauiTopicExtractor] Topic Diplomatics 1 0.052186567287757765 > false
+14:10:30,893 INFO  [MauiTopicExtractor] Topic Deeds 1 0.052186567287757765 > false
+14:10:30,893 INFO  [MauiTopicExtractor] Topic Correlators 1 0.04996079941265 > false
+14:10:30,893 INFO  [MauiTopicExtractor] Topic Day 1 0.04636845428355653 > false
+14:10:30,929 INFO  [MauiTopicExtractor] -- Processing document: H-2.txt
+14:10:30,929 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:30,929 INFO  [MauiTopicExtractor] Topic Questions and answers 1 0.33988766585942665 > false
+14:10:30,929 INFO  [MauiTopicExtractor] Topic Persons 1 0.3273112110350727 > false
+14:10:30,929 INFO  [MauiTopicExtractor] Topic Information retrieval 1 0.3233115468409586 > false
+14:10:30,929 INFO  [MauiTopicExtractor] Topic Web search engines 1 0.3221787374418953 > false
+14:10:30,929 INFO  [MauiTopicExtractor] Topic Internet searching 1 0.2561997164628743 > false
+14:10:30,929 INFO  [MauiTopicExtractor] Topic Search engines 1 0.254469210677731 > false
+14:10:30,930 INFO  [MauiTopicExtractor] Topic Charters 1 0.1504393997266367 > false
+14:10:30,930 INFO  [MauiTopicExtractor] Topic Government publications 1 0.14043939972663672 > false
+14:10:30,930 INFO  [MauiTopicExtractor] Topic Legal documents 1 0.14043939972663672 > false
+14:10:30,930 INFO  [MauiTopicExtractor] Topic Diplomatics 1 0.14043939972663672 > false
+14:10:30,962 INFO  [MauiTopicExtractor] -- Processing document: H-20.txt
+14:10:30,962 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:30,962 INFO  [MauiTopicExtractor] Topic Machine learning 1 0.30255192778045303 > false
+14:10:30,962 INFO  [MauiTopicExtractor] Topic Trees 1 0.16514953025072068 > false
+14:10:30,963 INFO  [MauiTopicExtractor] Topic Trees 1 0.16514953025072068 > false
+14:10:30,963 INFO  [MauiTopicExtractor] Topic Government publications 1 0.1355199006210911 > false
+14:10:30,963 INFO  [MauiTopicExtractor] Topic Legal documents 1 0.1355199006210911 > false
+14:10:30,963 INFO  [MauiTopicExtractor] Topic Charters 1 0.1355199006210911 > false
+14:10:30,963 INFO  [MauiTopicExtractor] Topic Diplomatics 1 0.1355199006210911 > false
+14:10:30,963 INFO  [MauiTopicExtractor] Topic Deeds 1 0.1355199006210911 > false
+14:10:30,963 INFO  [MauiTopicExtractor] Topic Names 1 0.11974750722255785 > false
+14:10:30,963 INFO  [MauiTopicExtractor] Topic Information retrieval 1 0.11501785168705494 > false
+14:10:31,002 INFO  [MauiTopicExtractor] -- Processing document: H-21.txt
+14:10:31,002 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:31,002 INFO  [MauiTopicExtractor] Topic Classification 1 0.4088196559972159 > false
+14:10:31,002 INFO  [MauiTopicExtractor] Topic Classification 1 0.4088196559972159 > false
+14:10:31,002 INFO  [MauiTopicExtractor] Topic Information retrieval 1 0.326823234050175 > true
+14:10:31,002 INFO  [MauiTopicExtractor] Topic Classification 1 0.30881965599721595 > false
+14:10:31,002 INFO  [MauiTopicExtractor] Topic Questions and answers 1 0.23988766585942667 > false
+14:10:31,002 INFO  [MauiTopicExtractor] Topic Web search engines 1 0.1879344729344729 > true
+14:10:31,002 INFO  [MauiTopicExtractor] Topic Internet searching 1 0.18489662842604018 > true
+14:10:31,002 INFO  [MauiTopicExtractor] Topic Advertising 1 0.1551495302507207 > false
+14:10:31,002 INFO  [MauiTopicExtractor] Topic Machine learning 1 0.15392736990091563 > true
+14:10:31,002 INFO  [MauiTopicExtractor] Topic Relevance 1 0.13156756440113523 > false
+14:10:31,034 INFO  [MauiTopicExtractor] -- Processing document: H-24.txt
+14:10:31,034 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:31,034 INFO  [MauiTopicExtractor] Topic Search engines 1 0.2991919191919192 > true
+14:10:31,034 INFO  [MauiTopicExtractor] Topic Web search engines 1 0.2638888888888889 > false
+14:10:31,034 INFO  [MauiTopicExtractor] Topic Internet searching 1 0.1991919191919192 > false
+14:10:31,034 INFO  [MauiTopicExtractor] Topic Questions and answers 1 0.14793961391137472 > true
+14:10:31,034 INFO  [MauiTopicExtractor] Topic Government publications 1 0.1467378493390398 > false
+14:10:31,034 INFO  [MauiTopicExtractor] Topic Legal documents 1 0.1467378493390398 > false
+14:10:31,034 INFO  [MauiTopicExtractor] Topic Charters 1 0.1467378493390398 > false
+14:10:31,034 INFO  [MauiTopicExtractor] Topic Diplomatics 1 0.1467378493390398 > false
+14:10:31,034 INFO  [MauiTopicExtractor] Topic Deeds 1 0.1467378493390398 > false
+14:10:31,034 INFO  [MauiTopicExtractor] Topic Factor analysis 1 0.11528878528878528 > false
+14:10:31,069 INFO  [MauiTopicExtractor] -- Processing document: H-25.txt
+14:10:31,069 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:31,069 INFO  [MauiTopicExtractor] Topic Information retrieval 1 0.2871292106586224 > true
+14:10:31,070 INFO  [MauiTopicExtractor] Topic Archives 1 0.16006902935626632 > false
+14:10:31,070 INFO  [MauiTopicExtractor] Topic Retrievers 1 0.14316635438401684 > false
+14:10:31,070 INFO  [MauiTopicExtractor] Topic Charters 1 0.10340236268959968 > false
+14:10:31,070 INFO  [MauiTopicExtractor] Topic Government publications 1 0.09340236268959967 > false
+14:10:31,070 INFO  [MauiTopicExtractor] Topic Legal documents 1 0.09340236268959967 > false
+14:10:31,070 INFO  [MauiTopicExtractor] Topic Diplomatics 1 0.09340236268959967 > false
+14:10:31,070 INFO  [MauiTopicExtractor] Topic Deeds 1 0.09340236268959967 > false
+14:10:31,070 INFO  [MauiTopicExtractor] Topic Web search engines 1 0.07945368569038933 > false
+14:10:31,070 INFO  [MauiTopicExtractor] Topic Relevance 1 0.060069029356266346 > false
+14:10:31,099 INFO  [MauiTopicExtractor] -- Processing document: H-26.txt
+14:10:31,099 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:31,099 INFO  [MauiTopicExtractor] Topic Machine learning 1 0.4946078431372548 > true
+14:10:31,099 INFO  [MauiTopicExtractor] Topic Information retrieval 1 0.20831366768901236 > false
+14:10:31,099 INFO  [MauiTopicExtractor] Topic Government publications 1 0.19340236268959968 > false
+14:10:31,100 INFO  [MauiTopicExtractor] Topic Diplomatics 1 0.19340236268959968 > false
+14:10:31,100 INFO  [MauiTopicExtractor] Topic Deeds 1 0.19340236268959968 > false
+14:10:31,100 INFO  [MauiTopicExtractor] Topic Archives 1 0.16006902935626632 > false
+14:10:31,100 INFO  [MauiTopicExtractor] Topic Optimism 1 0.1565031301340007 > false
+14:10:31,100 INFO  [MauiTopicExtractor] Topic Learning 1 0.11606603280881016 > false
+14:10:31,100 INFO  [MauiTopicExtractor] Topic Learning 1 0.11606603280881016 > false
+14:10:31,100 INFO  [MauiTopicExtractor] Topic Machining 1 0.10935304153638223 > false
+14:10:31,138 INFO  [MauiTopicExtractor] -- Processing document: H-29.txt
+14:10:31,138 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:31,138 INFO  [MauiTopicExtractor] Topic Information retrieval 1 0.2505332881560768 > true
+14:10:31,138 INFO  [MauiTopicExtractor] Topic Relevance 1 0.14528536615128806 > false
+14:10:31,138 INFO  [MauiTopicExtractor] Topic Questions and answers 1 0.12305957975215334 > false
+14:10:31,138 INFO  [MauiTopicExtractor] Topic Social classes 1 0.12040983324340408 > false
+14:10:31,138 INFO  [MauiTopicExtractor] Topic Machine learning 1 0.07945368569038933 > false
+14:10:31,138 INFO  [MauiTopicExtractor] Topic Archives 1 0.07840236268959967 > false
+14:10:31,138 INFO  [MauiTopicExtractor] Topic Government publications 1 0.07006902935626633 > false
+14:10:31,139 INFO  [MauiTopicExtractor] Topic Legal documents 1 0.07006902935626633 > false
+14:10:31,139 INFO  [MauiTopicExtractor] Topic Deeds 1 0.07006902935626633 > false
+14:10:31,139 INFO  [MauiTopicExtractor] Topic Charters 1 0.06340236268959967 > false
+14:10:31,147 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+14:10:31,147 WARN  [MauiFilter] user profile
+query-specific context
+user-centric one
+domain of interest
+interest domain
+context factor
+word sense disambiguation
+information need
+search context
+domain knowledge
+utilization of general knowledge
+general knowledge utilization
+problem of knowledge ambiguity
+knowledge ambiguity problem
+context-independent
+context information
+domain model
+radical solution
+google personalized search
+query context
+term relation
+language model
+
+14:10:31,171 INFO  [MauiTopicExtractor] -- Processing document: H-3.txt
+14:10:31,171 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:31,171 INFO  [MauiTopicExtractor] Topic Information retrieval 1 0.3612814821705247 > false
+14:10:31,171 INFO  [MauiTopicExtractor] Topic Context 1 0.19313766267586993 > false
+14:10:31,172 INFO  [MauiTopicExtractor] Topic Questions and answers 1 0.14793961391137472 > false
+14:10:31,172 INFO  [MauiTopicExtractor] Topic Moken language 1 0.11055975133215465 > false
+14:10:31,172 INFO  [MauiTopicExtractor] Topic Relations 1 0.10791467501980187 > false
+14:10:31,172 INFO  [MauiTopicExtractor] Topic Web search engines 1 0.07945368569038933 > false
+14:10:31,172 INFO  [MauiTopicExtractor] Topic Charters 1 0.07377273305997004 > false
+14:10:31,172 INFO  [MauiTopicExtractor] Topic Government publications 1 0.06377273305997004 > false
+14:10:31,172 INFO  [MauiTopicExtractor] Topic Legal documents 1 0.06377273305997004 > false
+14:10:31,172 INFO  [MauiTopicExtractor] Topic Diplomatics 1 0.06377273305997004 > false
+14:10:31,206 INFO  [MauiTopicExtractor] -- Processing document: H-30.txt
+14:10:31,206 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:31,206 INFO  [MauiTopicExtractor] Topic Information retrieval 1 0.3722222222222222 > true
+14:10:31,206 INFO  [MauiTopicExtractor] Topic Markov random fields 1 0.32574420677361854 > true
+14:10:31,207 INFO  [MauiTopicExtractor] Topic Space telescopes 1 0.20760291409761952 > false
+14:10:31,207 INFO  [MauiTopicExtractor] Topic Charters 1 0.1504393997266367 > false
+14:10:31,207 INFO  [MauiTopicExtractor] Topic Government publications 1 0.14043939972663672 > false
+14:10:31,207 INFO  [MauiTopicExtractor] Topic Legal documents 1 0.14043939972663672 > false
+14:10:31,207 INFO  [MauiTopicExtractor] Topic Diplomatics 1 0.14043939972663672 > false
+14:10:31,207 INFO  [MauiTopicExtractor] Topic Deeds 1 0.14043939972663672 > false
+14:10:31,207 INFO  [MauiTopicExtractor] Topic Archives 1 0.14043939972663672 > false
+14:10:31,207 INFO  [MauiTopicExtractor] Topic Questions and answers 1 0.1327105090161033 > false
+14:10:31,239 INFO  [MauiTopicExtractor] -- Processing document: H-31.txt
+14:10:31,239 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:31,239 INFO  [MauiTopicExtractor] Topic Information retrieval 1 0.3278045644487303 > false
+14:10:31,239 INFO  [MauiTopicExtractor] Topic Information modeling 1 0.18482411405553376 > false
+14:10:31,240 INFO  [MauiTopicExtractor] Topic Poisson distribution 1 0.13317340067340067 > true
+14:10:31,240 INFO  [MauiTopicExtractor] Topic Strut-and-tie models 1 0.1111830886462289 > false
+14:10:31,240 INFO  [MauiTopicExtractor] Topic Modeling 1 0.1111830886462289 > false
+14:10:31,240 INFO  [MauiTopicExtractor] Topic Models 1 0.1111830886462289 > false
+14:10:31,240 INFO  [MauiTopicExtractor] Topic Modeling 1 0.1111830886462289 > false
+14:10:31,240 INFO  [MauiTopicExtractor] Topic Machine learning 1 0.07945368569038933 > false
+14:10:31,240 INFO  [MauiTopicExtractor] Topic Government publications 1 0.06138409026435051 > false
+14:10:31,240 INFO  [MauiTopicExtractor] Topic Legal documents 1 0.06138409026435051 > false
+14:10:31,285 INFO  [MauiTopicExtractor] -- Processing document: H-32.txt
+14:10:31,286 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:31,286 INFO  [MauiTopicExtractor] Topic Questions and answers 1 0.28881582685810436 > false
+14:10:31,286 INFO  [MauiTopicExtractor] Topic Computational linguistics 1 0.11108606712162834 > false
+14:10:31,286 INFO  [MauiTopicExtractor] Topic Information retrieval 1 0.10275877043615203 > false
+14:10:31,286 INFO  [MauiTopicExtractor] Topic Machine learning 1 0.07945368569038933 > false
+14:10:31,286 INFO  [MauiTopicExtractor] Topic Charters 1 0.06415163278994117 > false
+14:10:31,287 INFO  [MauiTopicExtractor] Topic Government publications 1 0.05415163278994117 > false
+14:10:31,287 INFO  [MauiTopicExtractor] Topic Legal documents 1 0.05415163278994117 > false
+14:10:31,287 INFO  [MauiTopicExtractor] Topic Diplomatics 1 0.05415163278994117 > false
+14:10:31,287 INFO  [MauiTopicExtractor] Topic Deeds 1 0.05415163278994117 > false
+14:10:31,287 INFO  [MauiTopicExtractor] Topic Archives 1 0.05415163278994117 > false
+14:10:31,329 INFO  [MauiTopicExtractor] -- Processing document: H-4.txt
+14:10:31,329 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:31,329 INFO  [MauiTopicExtractor] Topic Persons 1 0.3516377134527563 > false
+14:10:31,329 INFO  [MauiTopicExtractor] Topic Information retrieval 1 0.3070316164069611 > false
+14:10:31,329 INFO  [MauiTopicExtractor] Topic Person 1 0.26413771345275633 > false
+14:10:31,329 INFO  [MauiTopicExtractor] Topic Personals 1 0.26413771345275633 > false
+14:10:31,329 INFO  [MauiTopicExtractor] Topic Personality 1 0.24747104678608967 > false
+14:10:31,329 INFO  [MauiTopicExtractor] Topic Informers 1 0.22316979680066734 > false
+14:10:31,329 INFO  [MauiTopicExtractor] Topic Informations 1 0.22316979680066734 > false
+14:10:31,329 INFO  [MauiTopicExtractor] Topic Persons 1 0.2073112110350727 > false
+14:10:31,329 INFO  [MauiTopicExtractor] Topic Personalism 1 0.1474710467860896 > false
+14:10:31,329 INFO  [MauiTopicExtractor] Topic Personal information management 1 0.14665165808103237 > true
+14:10:31,362 INFO  [MauiTopicExtractor] -- Processing document: H-5.txt
+14:10:31,362 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:31,362 INFO  [MauiTopicExtractor] Topic Information retrieval 1 0.32553328815607674 > false
+14:10:31,362 INFO  [MauiTopicExtractor] Topic Government publications 1 0.2318161969173874 > false
+14:10:31,362 INFO  [MauiTopicExtractor] Topic Legal documents 1 0.2318161969173874 > false
+14:10:31,362 INFO  [MauiTopicExtractor] Topic Adaptive filters 1 0.21696969696969698 > true
+14:10:31,362 INFO  [MauiTopicExtractor] Topic Charters 1 0.21514953025072076 > false
+14:10:31,363 INFO  [MauiTopicExtractor] Topic Diplomatics 1 0.21514953025072076 > false
+14:10:31,363 INFO  [MauiTopicExtractor] Topic Deeds 1 0.14848286358405405 > false
+14:10:31,369 INFO  [MauiTopicExtractor] Topic Archives 1 0.10681619691738739 > false
+14:10:31,370 INFO  [MauiTopicExtractor] Topic Relevance 1 0.05907113189548678 > false
+14:10:31,370 INFO  [MauiTopicExtractor] Topic Utilization 1 0.05893657220492564 > false
+14:10:31,398 INFO  [MauiTopicExtractor] -- Processing document: H-7.txt
+14:10:31,399 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:31,399 INFO  [MauiTopicExtractor] Topic Machine learning 1 0.4030973907201793 > false
+14:10:31,399 INFO  [MauiTopicExtractor] Topic Information retrieval 1 0.3184750337381916 > false
+14:10:31,399 INFO  [MauiTopicExtractor] Topic Expectation-maximization algorithms 1 0.30490021139491685 > true
+14:10:31,399 INFO  [MauiTopicExtractor] Topic New Left 1 0.10791467501980187 > false
+14:10:31,399 INFO  [MauiTopicExtractor] Topic Learning 1 0.09008564065194742 > false
+14:10:31,399 INFO  [MauiTopicExtractor] Topic Learning 1 0.09008564065194742 > false
+14:10:31,399 INFO  [MauiTopicExtractor] Topic Charters 1 0.06218656728775775 > false
+14:10:31,399 INFO  [MauiTopicExtractor] Topic Government publications 1 0.052186567287757765 > false
+14:10:31,399 INFO  [MauiTopicExtractor] Topic Legal documents 1 0.052186567287757765 > false
+14:10:31,399 INFO  [MauiTopicExtractor] Topic Diplomatics 1 0.052186567287757765 > false
+14:10:31,424 INFO  [MauiTopicExtractor] -- Processing document: H-8.txt
+14:10:31,424 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:31,424 INFO  [MauiTopicExtractor] Topic Information retrieval 1 0.5196078431372548 > true
+14:10:31,424 INFO  [MauiTopicExtractor] Topic Archives 1 0.2534023626895997 > false
+14:10:31,424 INFO  [MauiTopicExtractor] Topic Charters 1 0.18673569602293302 > false
+14:10:31,424 INFO  [MauiTopicExtractor] Topic Diplomatics 1 0.18673569602293302 > false
+14:10:31,424 INFO  [MauiTopicExtractor] Topic Deeds 1 0.18673569602293302 > false
+14:10:31,424 INFO  [MauiTopicExtractor] Topic Evaluation 1 0.1565031301340007 > true
+14:10:31,424 INFO  [MauiTopicExtractor] Topic Evaluation 1 0.13566979680066735 > true
+14:10:31,424 INFO  [MauiTopicExtractor] Topic Examinations 1 0.11751420010018795 > false
+14:10:31,424 INFO  [MauiTopicExtractor] Topic L systems 1 0.10791467501980187 > false
+14:10:31,424 INFO  [MauiTopicExtractor] Topic Government publications 1 0.086735696022933 > false
+14:10:31,458 INFO  [MauiTopicExtractor] -- Processing document: H-9.txt
+14:10:31,458 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:31,458 INFO  [MauiTopicExtractor] Topic Web search engines 1 0.45912275271793657 > false
+14:10:31,458 INFO  [MauiTopicExtractor] Topic Search engines 1 0.291969696969697 > false
+14:10:31,459 INFO  [MauiTopicExtractor] Topic Information retrieval 1 0.21501785168705495 > false
+14:10:31,459 INFO  [MauiTopicExtractor] Topic Learning 1 0.16390802292194637 > false
+14:10:31,460 INFO  [MauiTopicExtractor] Topic Associations, institutions, etc. 1 0.14528536615128806 > false
+14:10:31,460 INFO  [MauiTopicExtractor] Topic Organisms 1 0.14528536615128806 > false
+14:10:31,460 INFO  [MauiTopicExtractor] Topic Organization 1 0.14528536615128806 > false
+14:10:31,460 INFO  [MauiTopicExtractor] Topic Organs 1 0.14528536615128806 > false
+14:10:31,460 INFO  [MauiTopicExtractor] Topic Organization 1 0.13156756440113523 > false
+14:10:31,460 INFO  [MauiTopicExtractor] Topic Social classes 1 0.1287051650662457 > false
+14:10:31,497 INFO  [MauiTopicExtractor] -- Processing document: I-1.txt
+14:10:31,497 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:31,497 INFO  [MauiTopicExtractor] Topic Intelligence officers 1 0.19901760520181572 > true
+14:10:31,497 INFO  [MauiTopicExtractor] Topic Abortion 1 0.14686882762137377 > false
+14:10:31,497 INFO  [MauiTopicExtractor] Topic Architectural drawing 1 0.1327105090161033 > false
+14:10:31,497 INFO  [MauiTopicExtractor] Topic Planning 1 0.12884634039783632 > false
+14:10:31,497 INFO  [MauiTopicExtractor] Topic Geometrical drawing 1 0.12556765187324614 > false
+14:10:31,497 INFO  [MauiTopicExtractor] Topic Mechanical drawing 1 0.12159939790499216 > false
+14:10:31,497 INFO  [MauiTopicExtractor] Topic Planning 1 0.12159939790499216 > false
+14:10:31,497 INFO  [MauiTopicExtractor] Topic Architecture 1 0.11193507146455954 > false
+14:10:31,497 INFO  [MauiTopicExtractor] Topic Library planning 1 0.10956369841134506 > false
+14:10:31,498 INFO  [MauiTopicExtractor] Topic Maps 1 0.07090461291462218 > false
+14:10:31,520 INFO  [MauiTopicExtractor] -- Processing document: I-10.txt
+14:10:31,521 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:31,521 INFO  [MauiTopicExtractor] Topic Machine learning 1 0.401815339438128 > false
+14:10:31,521 INFO  [MauiTopicExtractor] Topic Concept learning 1 0.30490021139491685 > false
+14:10:31,521 INFO  [MauiTopicExtractor] Topic Learning 1 0.18659743377499372 > true
+14:10:31,521 INFO  [MauiTopicExtractor] Topic Learning 1 0.16993076710832708 > true
+14:10:31,521 INFO  [MauiTopicExtractor] Topic L systems 1 0.11415863371887784 > false
+14:10:31,521 INFO  [MauiTopicExtractor] Topic Active learning 1 0.0972138402213252 > false
+14:10:31,521 INFO  [MauiTopicExtractor] Topic Mechanics 1 0.05710606639330338 > false
+14:10:31,521 INFO  [MauiTopicExtractor] Topic Mechanization 1 0.05710606639330338 > false
+14:10:31,521 INFO  [MauiTopicExtractor] Topic Multiplexing 1 0.052842304992675795 > false
+14:10:31,521 INFO  [MauiTopicExtractor] Topic Atomism 1 0.052842304992675795 > false
+14:10:31,553 INFO  [MauiTopicExtractor] -- Processing document: I-11.txt
+14:10:31,553 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:31,553 INFO  [MauiTopicExtractor] Topic Forecasting 1 0.3566211021570752 > true
+14:10:31,554 INFO  [MauiTopicExtractor] Topic Personality 1 0.14173997186541437 > false
+14:10:31,554 INFO  [MauiTopicExtractor] Topic L systems 1 0.12041467501980188 > false
+14:10:31,554 INFO  [MauiTopicExtractor] Topic Persons 1 0.11188355625387543 > false
+14:10:31,554 INFO  [MauiTopicExtractor] Topic Emotions 1 0.09914704945093986 > true
+14:10:31,554 INFO  [MauiTopicExtractor] Topic Hidden Markov models 1 0.09666627797327713 > false
+14:10:31,554 INFO  [MauiTopicExtractor] Topic Markov processes 1 0.0965226935848161 > false
+14:10:31,554 INFO  [MauiTopicExtractor] Topic Person 1 0.04656741743333935 > false
+14:10:31,554 INFO  [MauiTopicExtractor] Topic Persons 1 0.04656741743333935 > false
+14:10:31,554 INFO  [MauiTopicExtractor] Topic Personals 1 0.04656741743333935 > false
+14:10:31,589 INFO  [MauiTopicExtractor] -- Processing document: I-12.txt
+14:10:31,589 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:31,589 INFO  [MauiTopicExtractor] Topic Game theory 1 0.177758770436152 > false
+14:10:31,590 INFO  [MauiTopicExtractor] Topic Learning 1 0.16390802292194637 > false
+14:10:31,590 INFO  [MauiTopicExtractor] Topic Coordinates 1 0.14508640300150524 > false
+14:10:31,590 INFO  [MauiTopicExtractor] Topic Parameter estimation 1 0.11801099134119783 > true
+14:10:31,590 INFO  [MauiTopicExtractor] Topic Machine learning 1 0.11671276694129225 > false
+14:10:31,590 INFO  [MauiTopicExtractor] Topic Decision making 1 0.10979819888177791 > true
+14:10:31,590 INFO  [MauiTopicExtractor] Topic Learning 1 0.09638665540057884 > false
+14:10:31,590 INFO  [MauiTopicExtractor] Topic Probabilities 1 0.08817547620490045 > false
+14:10:31,590 INFO  [MauiTopicExtractor] Topic Sharing 1 0.07265437395507847 > false
+14:10:31,590 INFO  [MauiTopicExtractor] Topic Cost accounting 1 0.05507926166797844 > false
+14:10:31,621 INFO  [MauiTopicExtractor] -- Processing document: I-14.txt
+14:10:31,622 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:31,622 INFO  [MauiTopicExtractor] Topic Information retrieval 1 0.3460334788077672 > false
+14:10:31,622 INFO  [MauiTopicExtractor] Topic Learning 1 0.19395037495146433 > false
+14:10:31,622 INFO  [MauiTopicExtractor] Topic Learning 1 0.19395037495146433 > false
+14:10:31,622 INFO  [MauiTopicExtractor] Topic Information storage and retrieval systems 1 0.11079575026272316 > false
+14:10:31,622 INFO  [MauiTopicExtractor] Topic Machine learning 1 0.07945368569038933 > false
+14:10:31,622 INFO  [MauiTopicExtractor] Topic Utilization 1 0.05907113189548678 > true
+14:10:31,622 INFO  [MauiTopicExtractor] Topic Public utilities 1 0.05907113189548678 > true
+14:10:31,622 INFO  [MauiTopicExtractor] Topic Government publications 1 0.05885323395442443 > false
+14:10:31,622 INFO  [MauiTopicExtractor] Topic Legal documents 1 0.05885323395442443 > false
+14:10:31,622 INFO  [MauiTopicExtractor] Topic Charters 1 0.05885323395442443 > false
+14:10:31,648 INFO  [MauiTopicExtractor] -- Processing document: I-15.txt
+14:10:31,648 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:31,648 INFO  [MauiTopicExtractor] Topic Information retrieval 1 0.3137358004050037 > false
+14:10:31,648 INFO  [MauiTopicExtractor] Topic Informers 1 0.27010957330954327 > false
+14:10:31,648 INFO  [MauiTopicExtractor] Topic Informations 1 0.27010957330954327 > false
+14:10:31,648 INFO  [MauiTopicExtractor] Topic Sharing 1 0.1932744802979797 > false
+14:10:31,648 INFO  [MauiTopicExtractor] Topic Ontology 1 0.14513065376896214 > false
+14:10:31,648 INFO  [MauiTopicExtractor] Topic Search engines 1 0.10217495584387722 > false
+14:10:31,648 INFO  [MauiTopicExtractor] Topic Advertisers 1 0.059508971659342456 > false
+14:10:31,648 INFO  [MauiTopicExtractor] Topic Advertising 1 0.059508971659342456 > false
+14:10:31,648 INFO  [MauiTopicExtractor] Topic Semantics 1 0.05415163278994117 > false
+14:10:31,648 INFO  [MauiTopicExtractor] Topic Semantics 1 0.05415163278994117 > false
+14:10:31,680 INFO  [MauiTopicExtractor] -- Processing document: I-16.txt
+14:10:31,681 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:31,681 INFO  [MauiTopicExtractor] Topic Advertising 1 0.5387292167207302 > false
+14:10:31,681 INFO  [MauiTopicExtractor] Topic Advertisers 1 0.5137292167207301 > false
+14:10:31,681 INFO  [MauiTopicExtractor] Topic Auctioneers 1 0.2634189739852808 > true
+14:10:31,681 INFO  [MauiTopicExtractor] Topic Auctions 1 0.2634189739852808 > true
+14:10:31,681 INFO  [MauiTopicExtractor] Topic Pricing 1 0.12169188452545536 > false
+14:10:31,681 INFO  [MauiTopicExtractor] Topic Ubiquitous computing 1 0.11204534509924473 > false
+14:10:31,681 INFO  [MauiTopicExtractor] Topic Transition temperature 1 0.10956369841134506 > false
+14:10:31,681 INFO  [MauiTopicExtractor] Topic Strategy 1 0.06377273305997004 > false
+14:10:31,681 INFO  [MauiTopicExtractor] Topic Rationing 1 0.04656741743333935 > false
+14:10:31,681 INFO  [MauiTopicExtractor] Topic Rates 1 0.04656741743333935 > false
+14:10:31,708 INFO  [MauiTopicExtractor] -- Processing document: I-18.txt
+14:10:31,708 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:31,708 INFO  [MauiTopicExtractor] Topic Strategy 1 0.14043939972663672 > false
+14:10:31,708 INFO  [MauiTopicExtractor] Topic Forest fires 1 0.10967571452469493 > false
+14:10:31,708 INFO  [MauiTopicExtractor] Topic Communication 1 0.10052085710957386 > false
+14:10:31,708 INFO  [MauiTopicExtractor] Topic Communications 1 0.10052085710957386 > false
+14:10:31,708 INFO  [MauiTopicExtractor] Topic Communities 1 0.10052085710957386 > false
+14:10:31,709 INFO  [MauiTopicExtractor] Topic Communalism 1 0.10052085710957386 > false
+14:10:31,709 INFO  [MauiTopicExtractor] Topic Communism 1 0.10052085710957386 > false
+14:10:31,709 INFO  [MauiTopicExtractor] Topic Communal living 1 0.10052085710957386 > false
+14:10:31,709 INFO  [MauiTopicExtractor] Topic Communication 1 0.08385419044290722 > false
+14:10:31,709 INFO  [MauiTopicExtractor] Topic Maps 1 0.07621962304581997 > false
+14:10:31,717 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+14:10:31,717 WARN  [MauiFilter] optimal bidding strategy
+global bidding agent
+simultaneous second-price auction
+non-decreasing valuation distribution
+online market
+multiagent system
+market efficiency
+perfect substitute
+vickrey auction
+social and behavioral science
+utilitymaximising strategy
+simultaneous auction
+
+14:10:31,739 INFO  [MauiTopicExtractor] -- Processing document: I-19.txt
+14:10:31,739 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:31,739 INFO  [MauiTopicExtractor] Topic Auctioneers 1 0.4088196559972159 > false
+14:10:31,739 INFO  [MauiTopicExtractor] Topic Auctions 1 0.33381965599721597 > false
+14:10:31,740 INFO  [MauiTopicExtractor] Topic Optimism 1 0.23688759855082017 > false
+14:10:31,740 INFO  [MauiTopicExtractor] Topic Globalization 1 0.12884634039783632 > false
+14:10:31,740 INFO  [MauiTopicExtractor] Topic Globalization 1 0.12884634039783632 > false
+14:10:31,740 INFO  [MauiTopicExtractor] Topic Strategy 1 0.1243993661421435 > false
+14:10:31,740 INFO  [MauiTopicExtractor] Topic Pricing 1 0.11444550771386117 > false
+14:10:31,740 INFO  [MauiTopicExtractor] Topic Social problems 1 0.11204534509924473 > false
+14:10:31,740 INFO  [MauiTopicExtractor] Topic Case studies 1 0.11108606712162834 > false
+14:10:31,740 INFO  [MauiTopicExtractor] Topic Case studies 1 0.11108606712162834 > false
+14:10:31,765 INFO  [MauiTopicExtractor] -- Processing document: I-20.txt
+14:10:31,765 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:31,765 INFO  [MauiTopicExtractor] Topic Voting 1 0.32220081230200276 > true
+14:10:31,766 INFO  [MauiTopicExtractor] Topic Indexes 1 0.2982847214993994 > false
+14:10:31,766 INFO  [MauiTopicExtractor] Topic Voting 1 0.25720081230200276 > true
+14:10:31,766 INFO  [MauiTopicExtractor] Topic Games 1 0.1696793941449438 > false
+14:10:31,766 INFO  [MauiTopicExtractor] Topic Games 1 0.1696793941449438 > false
+14:10:31,766 INFO  [MauiTopicExtractor] Topic Games for one 1 0.16884381058658798 > false
+14:10:31,766 INFO  [MauiTopicExtractor] Topic Shell games 1 0.16884381058658798 > false
+14:10:31,766 INFO  [MauiTopicExtractor] Topic Indexes 1 0.16282265254467215 > false
+14:10:31,766 INFO  [MauiTopicExtractor] Topic Indexing 1 0.16282265254467215 > false
+14:10:31,766 INFO  [MauiTopicExtractor] Topic Indexers 1 0.16282265254467215 > false
+14:10:31,794 INFO  [MauiTopicExtractor] -- Processing document: I-21.txt
+14:10:31,794 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:31,794 INFO  [MauiTopicExtractor] Topic Marketing 1 0.2159194118911727 > false
+14:10:31,794 INFO  [MauiTopicExtractor] Topic Marketing 1 0.14316635438401684 > false
+14:10:31,794 INFO  [MauiTopicExtractor] Topic Markets 1 0.13988766585942666 > false
+14:10:31,794 INFO  [MauiTopicExtractor] Topic Aftermarkets 1 0.13988766585942666 > false
+14:10:31,794 INFO  [MauiTopicExtractor] Topic Marketing research 1 0.11748788759228761 > false
+14:10:31,794 INFO  [MauiTopicExtractor] Topic Market share 1 0.1081260178465298 > false
+14:10:31,795 INFO  [MauiTopicExtractor] Topic Productivity 1 0.08841897398528073 > false
+14:10:31,795 INFO  [MauiTopicExtractor] Topic Manufactures 1 0.08841897398528073 > false
+14:10:31,795 INFO  [MauiTopicExtractor] Topic Connectives 1 0.05415163278994117 > false
+14:10:31,795 INFO  [MauiTopicExtractor] Topic Vendors and purchasers 1 0.04996079941265 > false
+14:10:31,829 INFO  [MauiTopicExtractor] -- Processing document: I-22.txt
+14:10:31,829 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:31,829 INFO  [MauiTopicExtractor] Topic Sharing 1 0.16282265254467215 > false
+14:10:31,830 INFO  [MauiTopicExtractor] Topic Humanities 1 0.13883823142289548 > false
+14:10:31,830 INFO  [MauiTopicExtractor] Topic Human beings 1 0.1357862833709474 > false
+14:10:31,830 INFO  [MauiTopicExtractor] Topic Humanism 1 0.13497406280462848 > false
+14:10:31,830 INFO  [MauiTopicExtractor] Topic Humanity 1 0.13497406280462848 > false
+14:10:31,830 INFO  [MauiTopicExtractor] Topic Concept mapping 1 0.12784612462670625 > false
+14:10:31,830 INFO  [MauiTopicExtractor] Topic Short-term memory 1 0.10929116628081223 > false
+14:10:31,830 INFO  [MauiTopicExtractor] Topic Strut-and-tie models 1 0.10908348796309568 > false
+14:10:31,830 INFO  [MauiTopicExtractor] Topic Modeling 1 0.10908348796309568 > false
+14:10:31,830 INFO  [MauiTopicExtractor] Topic Models 1 0.10908348796309568 > false
+14:10:31,861 INFO  [MauiTopicExtractor] -- Processing document: I-26.txt
+14:10:31,861 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:31,861 INFO  [MauiTopicExtractor] Topic Decision making 1 0.4075252525252525 > false
+14:10:31,861 INFO  [MauiTopicExtractor] Topic Parallelism 1 0.402618105609619 > false
+14:10:31,861 INFO  [MauiTopicExtractor] Topic Partnership 1 0.22772712031178433 > true
+14:10:31,861 INFO  [MauiTopicExtractor] Topic Game theory 1 0.177758770436152 > false
+14:10:31,861 INFO  [MauiTopicExtractor] Topic Equilibrium 1 0.15757118267237313 > false
+14:10:31,861 INFO  [MauiTopicExtractor] Topic Utilization 1 0.14043939972663672 > true
+14:10:31,862 INFO  [MauiTopicExtractor] Topic Public utilities 1 0.14043939972663672 > true
+14:10:31,862 INFO  [MauiTopicExtractor] Topic Negotiation 1 0.129987216348297 > false
+14:10:31,862 INFO  [MauiTopicExtractor] Topic Economics 1 0.10578972665187407 > false
+14:10:31,862 INFO  [MauiTopicExtractor] Topic Strategy 1 0.06377273305997004 > false
+14:10:31,895 INFO  [MauiTopicExtractor] -- Processing document: I-29.txt
+14:10:31,895 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:31,895 INFO  [MauiTopicExtractor] Topic Scheduling 1 0.5088196559972159 > true
+14:10:31,895 INFO  [MauiTopicExtractor] Topic Local option 1 0.20490021139491685 > false
+14:10:31,895 INFO  [MauiTopicExtractor] Topic Coordinates 1 0.15757118267237313 > false
+14:10:31,895 INFO  [MauiTopicExtractor] Topic Executives 1 0.1418285028002636 > true
+14:10:31,896 INFO  [MauiTopicExtractor] Topic Deadlines 1 0.052842304992675795 > false
+14:10:31,896 INFO  [MauiTopicExtractor] Topic Hedges 1 0.04996079941265 > false
+14:10:31,896 INFO  [MauiTopicExtractor] Topic Relaxation 1 0.04996079941265 > false
+14:10:31,896 INFO  [MauiTopicExtractor] Topic Thread 1 0.04636845428355653 > false
+14:10:31,896 INFO  [MauiTopicExtractor] Topic Representative government and representation 1 0.03150329952721449 > false
+14:10:31,896 INFO  [MauiTopicExtractor] Topic Quality 1 0.030859763216628245 > false
+14:10:31,926 INFO  [MauiTopicExtractor] -- Processing document: I-30.txt
+14:10:31,926 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:31,926 INFO  [MauiTopicExtractor] Topic Social networks 1 0.8103030303030303 > true
+14:10:31,926 INFO  [MauiTopicExtractor] Topic Social networks 1 0.8103030303030303 > true
+14:10:31,926 INFO  [MauiTopicExtractor] Topic Distributed algorithms 1 0.20686099570864233 > false
+14:10:31,926 INFO  [MauiTopicExtractor] Topic Game theory 1 0.177758770436152 > false
+14:10:31,926 INFO  [MauiTopicExtractor] Topic Connectives 1 0.16514953025072068 > false
+14:10:31,926 INFO  [MauiTopicExtractor] Topic Socialism 1 0.14181189150458254 > false
+14:10:31,926 INFO  [MauiTopicExtractor] Topic Socialization 1 0.13794772288631557 > false
+14:10:31,926 INFO  [MauiTopicExtractor] Topic Socialization 1 0.13794772288631557 > false
+14:10:31,926 INFO  [MauiTopicExtractor] Topic Semantic Web 1 0.11223453428843393 > false
+14:10:31,927 INFO  [MauiTopicExtractor] Topic Social problems 1 0.0965226935848161 > false
+14:10:31,960 INFO  [MauiTopicExtractor] -- Processing document: I-31.txt
+14:10:31,960 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:31,961 INFO  [MauiTopicExtractor] Topic Logic 1 0.31092122421030327 > false
+14:10:31,961 INFO  [MauiTopicExtractor] Topic Charities 1 0.29028878528878527 > false
+14:10:31,961 INFO  [MauiTopicExtractor] Topic Social service 1 0.29028878528878527 > false
+14:10:31,961 INFO  [MauiTopicExtractor] Topic Public welfare 1 0.29028878528878527 > false
+14:10:31,961 INFO  [MauiTopicExtractor] Topic Humanitarianism 1 0.29028878528878527 > false
+14:10:31,961 INFO  [MauiTopicExtractor] Topic Social problems 1 0.21528878528878526 > false
+14:10:31,961 INFO  [MauiTopicExtractor] Topic Representative government and representation 1 0.16150819536927602 > false
+14:10:31,961 INFO  [MauiTopicExtractor] Topic Voting 1 0.15757118267237313 > false
+14:10:31,961 INFO  [MauiTopicExtractor] Topic Voting 1 0.15757118267237313 > false
+14:10:31,961 INFO  [MauiTopicExtractor] Topic Judgments 1 0.15082897261468692 > false
+14:10:31,969 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+14:10:31,969 WARN  [MauiFilter] multiagent environment
+adversarial interaction
+adversarial environment
+behavioral axiom
+bilateral and multilateral instantiation
+evaluation function
+beneficial action
+connect-four game
+empirical study
+axiomatized model
+zero-sum encounter
+treatment group
+eval value
+interaction
+agent
+multiagent system
+modal logic
+
+14:10:31,996 INFO  [MauiTopicExtractor] -- Processing document: I-32.txt
+14:10:31,996 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:31,996 INFO  [MauiTopicExtractor] Topic Games 1 0.14960831661832585 > false
+14:10:31,996 INFO  [MauiTopicExtractor] Topic Connectives 1 0.13156756440113523 > false
+14:10:31,996 INFO  [MauiTopicExtractor] Topic Strut-and-tie models 1 0.10908348796309568 > false
+14:10:31,996 INFO  [MauiTopicExtractor] Topic Modeling 1 0.10908348796309568 > false
+14:10:31,996 INFO  [MauiTopicExtractor] Topic Models 1 0.10908348796309568 > false
+14:10:31,996 INFO  [MauiTopicExtractor] Topic Modeling 1 0.10908348796309568 > false
+14:10:31,996 INFO  [MauiTopicExtractor] Topic Example 1 0.10759095064966287 > false
+14:10:31,996 INFO  [MauiTopicExtractor] Topic Computer science 1 0.08436963319255855 > false
+14:10:31,996 INFO  [MauiTopicExtractor] Topic Intelligence officers 1 0.07900923737054759 > false
+14:10:31,997 INFO  [MauiTopicExtractor] Topic Games for one 1 0.06377273305997004 > false
+14:10:32,033 INFO  [MauiTopicExtractor] -- Processing document: I-33.txt
+14:10:32,033 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:32,033 INFO  [MauiTopicExtractor] Topic Logic 1 0.31340676623072905 > true
+14:10:32,033 INFO  [MauiTopicExtractor] Topic Description logics 1 0.30812601784652976 > true
+14:10:32,033 INFO  [MauiTopicExtractor] Topic Rural transit 1 0.21008680216025527 > false
+14:10:32,033 INFO  [MauiTopicExtractor] Topic Local transit 1 0.21008680216025527 > false
+14:10:32,033 INFO  [MauiTopicExtractor] Topic Public institutions 1 0.20760291409761952 > false
+14:10:32,033 INFO  [MauiTopicExtractor] Topic Sociology 1 0.11170602696192677 > false
+14:10:32,034 INFO  [MauiTopicExtractor] Topic L systems 1 0.10772548583061267 > false
+14:10:32,034 INFO  [MauiTopicExtractor] Topic Best sellers 1 0.054807370494859196 > false
+14:10:32,034 INFO  [MauiTopicExtractor] Topic Semantics 1 0.05286958150788988 > false
+14:10:32,034 INFO  [MauiTopicExtractor] Topic Statues 1 0.04996079941265 > false
+14:10:32,038 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+14:10:32,038 WARN  [MauiFilter] virtual organization
+multi-agent system
+norm-regulated vo
+agent
+norm conflict
+conflicting prohibition
+norm inconsistency
+external agent
+governor agent
+artificial social systems
+
+14:10:32,056 INFO  [MauiTopicExtractor] -- Processing document: I-34.txt
+14:10:32,056 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:32,056 INFO  [MauiTopicExtractor] Topic Regulations 1 0.1239186753605579 > false
+14:10:32,056 INFO  [MauiTopicExtractor] Topic Regulation 1 0.1239186753605579 > false
+14:10:32,056 INFO  [MauiTopicExtractor] Topic Regulations 1 0.1239186753605579 > false
+14:10:32,056 INFO  [MauiTopicExtractor] Topic Used machinery 1 0.11748788759228761 > false
+14:10:32,056 INFO  [MauiTopicExtractor] Topic Problem solving 1 0.10986430661375775 > false
+14:10:32,056 INFO  [MauiTopicExtractor] Topic Artificial intelligence 1 0.1074494459326432 > false
+14:10:32,056 INFO  [MauiTopicExtractor] Topic Autonomic drugs 1 0.10658846357810951 > false
+14:10:32,057 INFO  [MauiTopicExtractor] Topic Atomism 1 0.052186567287757765 > false
+14:10:32,057 INFO  [MauiTopicExtractor] Topic Atomizers 1 0.052186567287757765 > false
+14:10:32,057 INFO  [MauiTopicExtractor] Topic Atomization 1 0.052186567287757765 > false
+14:10:32,089 INFO  [MauiTopicExtractor] -- Processing document: I-35.txt
+14:10:32,089 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:32,089 INFO  [MauiTopicExtractor] Topic Conflict management 1 0.209563698411345 > false
+14:10:32,090 INFO  [MauiTopicExtractor] Topic Petri nets 1 0.20490021139491685 > false
+14:10:32,090 INFO  [MauiTopicExtractor] Topic Coordinates 1 0.1313686012513524 > true
+14:10:32,090 INFO  [MauiTopicExtractor] Topic Autonomic drugs 1 0.11425886910011125 > false
+14:10:32,090 INFO  [MauiTopicExtractor] Topic Artificial intelligence 1 0.10690299784521153 > false
+14:10:32,090 INFO  [MauiTopicExtractor] Topic Logic 1 0.10241548748021849 > false
+14:10:32,090 INFO  [MauiTopicExtractor] Topic Down payments 1 0.054807370494859196 > false
+14:10:32,090 INFO  [MauiTopicExtractor] Topic Payment 1 0.054807370494859196 > false
+14:10:32,090 INFO  [MauiTopicExtractor] Topic Atomism 1 0.052842304992675795 > false
+14:10:32,090 INFO  [MauiTopicExtractor] Topic Atomizers 1 0.052842304992675795 > false
+14:10:32,097 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+14:10:32,097 WARN  [MauiFilter] multiple agent
+negotiation framework
+negotiation chain
+semi-cooperative multi-agent system
+pre-negotiation
+multi-linked negotiation
+agent
+distributed setting
+multiple concurrent task
+virtual organization
+sub-task relocation
+reputation mechanism
+complex supply-chain scenario
+flexibility
+multi-link negotiation
+
+14:10:32,128 INFO  [MauiTopicExtractor] -- Processing document: I-4.txt
+14:10:32,128 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:32,128 INFO  [MauiTopicExtractor] Topic Negotiation 1 0.3096552395555718 > false
+14:10:32,128 INFO  [MauiTopicExtractor] Topic Time management 1 0.309563698411345 > false
+14:10:32,129 INFO  [MauiTopicExtractor] Topic Deadlines 1 0.28053414563533613 > false
+14:10:32,129 INFO  [MauiTopicExtractor] Topic Warehouses 1 0.20490021139491685 > false
+14:10:32,129 INFO  [MauiTopicExtractor] Topic Vendors and purchasers 1 0.054807370494859196 > false
+14:10:32,129 INFO  [MauiTopicExtractor] Topic Purchasing 1 0.054807370494859196 > false
+14:10:32,129 INFO  [MauiTopicExtractor] Topic Purchasing 1 0.054807370494859196 > false
+14:10:32,129 INFO  [MauiTopicExtractor] Topic Scheduling 1 0.054807370494859196 > false
+14:10:32,129 INFO  [MauiTopicExtractor] Topic Manufactures 1 0.05415163278994117 > false
+14:10:32,129 INFO  [MauiTopicExtractor] Topic Contraction 1 0.04636845428355653 > false
+14:10:32,163 INFO  [MauiTopicExtractor] -- Processing document: I-5.txt
+14:10:32,163 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:32,164 INFO  [MauiTopicExtractor] Topic Resource allocation 1 0.8388888888888889 > true
+14:10:32,164 INFO  [MauiTopicExtractor] Topic Resourcefulness 1 0.36159743377499376 > false
+14:10:32,164 INFO  [MauiTopicExtractor] Topic Game theory 1 0.177758770436152 > false
+14:10:32,164 INFO  [MauiTopicExtractor] Topic L systems 1 0.10791467501980187 > false
+14:10:32,164 INFO  [MauiTopicExtractor] Topic Web services 1 0.1038068594297431 > false
+14:10:32,164 INFO  [MauiTopicExtractor] Topic Forecasting 1 0.052842304992675795 > false
+14:10:32,164 INFO  [MauiTopicExtractor] Topic Futurologists 1 0.052842304992675795 > false
+14:10:32,164 INFO  [MauiTopicExtractor] Topic Forecasting 1 0.052186567287757765 > false
+14:10:32,164 INFO  [MauiTopicExtractor] Topic Consumers 1 0.04636845428355653 > false
+14:10:32,164 INFO  [MauiTopicExtractor] Topic Sharing 1 0.03284961568318653 > false
+14:10:32,171 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+14:10:32,171 WARN  [MauiFilter] agent communication language
+dynamic semantics
+social reasoning
+commitment-based semantics
+state transition system
+reputation-based adaptation
+mutuality of expectation
+expectation mutuality
+recovery mechanism
+non-redundancy
+social reason
+
+14:10:32,198 INFO  [MauiTopicExtractor] -- Processing document: I-6.txt
+14:10:32,198 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:32,198 INFO  [MauiTopicExtractor] Topic Semantics 1 0.2504863226638826 > false
+14:10:32,198 INFO  [MauiTopicExtractor] Topic Semantics 1 0.23381965599721596 > false
+14:10:32,198 INFO  [MauiTopicExtractor] Topic Communication 1 0.21696824641307044 > false
+14:10:32,198 INFO  [MauiTopicExtractor] Topic Communications 1 0.21696824641307044 > false
+14:10:32,198 INFO  [MauiTopicExtractor] Topic Communalism 1 0.21696824641307044 > false
+14:10:32,198 INFO  [MauiTopicExtractor] Topic Communal living 1 0.21696824641307044 > false
+14:10:32,198 INFO  [MauiTopicExtractor] Topic Communication 1 0.12946824641307045 > false
+14:10:32,198 INFO  [MauiTopicExtractor] Topic Communities 1 0.12946824641307045 > false
+14:10:32,198 INFO  [MauiTopicExtractor] Topic Communism 1 0.12946824641307045 > false
+14:10:32,198 INFO  [MauiTopicExtractor] Topic Dynamics 1 0.12009455701399123 > false
+14:10:32,226 INFO  [MauiTopicExtractor] -- Processing document: I-7.txt
+14:10:32,226 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:32,226 INFO  [MauiTopicExtractor] Topic Game theory 1 0.395896686159844 > true
+14:10:32,227 INFO  [MauiTopicExtractor] Topic Extortion 1 0.24359013909678362 > true
+14:10:32,227 INFO  [MauiTopicExtractor] Topic Games 1 0.23590461291462222 > false
+14:10:32,227 INFO  [MauiTopicExtractor] Topic Games for one 1 0.16006902935626632 > false
+14:10:32,227 INFO  [MauiTopicExtractor] Topic Shell games 1 0.16006902935626632 > false
+14:10:32,227 INFO  [MauiTopicExtractor] Topic Games 1 0.13590461291462216 > false
+14:10:32,227 INFO  [MauiTopicExtractor] Topic Games 1 0.13590461291462216 > false
+14:10:32,227 INFO  [MauiTopicExtractor] Topic Threats 1 0.12778284397882483 > false
+14:10:32,227 INFO  [MauiTopicExtractor] Topic Strategy 1 0.06377273305997004 > false
+14:10:32,227 INFO  [MauiTopicExtractor] Topic Least action 1 0.034723931834895215 > false
+14:10:32,233 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+14:10:32,233 WARN  [MauiFilter] multi-agent environment
+interactive behavior
+temporal constraint
+interaction protocol
+linear logic
+multiplicative conjunction
+classical conjunction
+level of predictability
+predictability level
+pre-commitment
+linear implication
+emergent protocol
+conditional commitment
+request message
+causal relationship
+agent communication language and protocol
+logic and formal model of agency and multi-agent system
+
+14:10:32,256 INFO  [MauiTopicExtractor] -- Processing document: I-9.txt
+14:10:32,256 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:32,257 INFO  [MauiTopicExtractor] Topic Logic 1 0.41088045832525016 > false
+14:10:32,257 INFO  [MauiTopicExtractor] Topic Cricket bats 1 0.20490021139491685 > false
+14:10:32,257 INFO  [MauiTopicExtractor] Topic Negotiation 1 0.12283035141904561 > false
+14:10:32,257 INFO  [MauiTopicExtractor] Topic Intelligence officers 1 0.07900923737054759 > false
+14:10:32,257 INFO  [MauiTopicExtractor] Topic Resourcefulness 1 0.06377273305997004 > false
+14:10:32,257 INFO  [MauiTopicExtractor] Topic Short selling 1 0.052186567287757765 > false
+14:10:32,257 INFO  [MauiTopicExtractor] Topic Down payments 1 0.052186567287757765 > false
+14:10:32,257 INFO  [MauiTopicExtractor] Topic Payment 1 0.052186567287757765 > false
+14:10:32,257 INFO  [MauiTopicExtractor] Topic Cricket players 1 0.03696407319153048 > false
+14:10:32,257 INFO  [MauiTopicExtractor] Topic Cricket 1 0.03696407319153048 > false
+14:10:32,300 INFO  [MauiTopicExtractor] -- Processing document: J-1.txt
+14:10:32,300 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:32,300 INFO  [MauiTopicExtractor] Topic Mechanization 1 0.2615974337749938 > false
+14:10:32,300 INFO  [MauiTopicExtractor] Topic Commerce 1 0.23229459973939162 > false
+14:10:32,300 INFO  [MauiTopicExtractor] Topic Best sellers 1 0.1651495302507207 > false
+14:10:32,300 INFO  [MauiTopicExtractor] Topic Mechanics 1 0.16159743377499372 > false
+14:10:32,301 INFO  [MauiTopicExtractor] Topic Charities 1 0.14785959138900315 > false
+14:10:32,301 INFO  [MauiTopicExtractor] Topic Social service 1 0.14785959138900315 > false
+14:10:32,301 INFO  [MauiTopicExtractor] Topic Public welfare 1 0.14785959138900315 > false
+14:10:32,301 INFO  [MauiTopicExtractor] Topic Humanitarianism 1 0.14785959138900315 > false
+14:10:32,301 INFO  [MauiTopicExtractor] Topic Business 1 0.1461559858780055 > false
+14:10:32,301 INFO  [MauiTopicExtractor] Topic Social problems 1 0.14491841491841492 > false
+14:10:32,338 INFO  [MauiTopicExtractor] -- Processing document: J-10.txt
+14:10:32,338 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:32,338 INFO  [MauiTopicExtractor] Topic Services for 1 0.14528536615128806 > false
+14:10:32,338 INFO  [MauiTopicExtractor] Topic Productivity 1 0.14508640300150524 > false
+14:10:32,338 INFO  [MauiTopicExtractor] Topic Manufactures 1 0.14508640300150524 > false
+14:10:32,338 INFO  [MauiTopicExtractor] Topic Rationing 1 0.09340236268959967 > true
+14:10:32,338 INFO  [MauiTopicExtractor] Topic Rating of 1 0.09340236268959967 > true
+14:10:32,338 INFO  [MauiTopicExtractor] Topic Machine learning 1 0.07945368569038933 > false
+14:10:32,338 INFO  [MauiTopicExtractor] Topic Rates 1 0.060069029356266346 > true
+14:10:32,338 INFO  [MauiTopicExtractor] Topic Rates 1 0.060069029356266346 > true
+14:10:32,339 INFO  [MauiTopicExtractor] Topic Quality of products 1 0.039928769278045964 > false
+14:10:32,339 INFO  [MauiTopicExtractor] Topic Classifiers 1 0.03150329952721449 > false
+14:10:32,375 INFO  [MauiTopicExtractor] -- Processing document: J-11.txt
+14:10:32,375 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:32,375 INFO  [MauiTopicExtractor] Topic Best sellers 1 0.4505507569310172 > false
+14:10:32,375 INFO  [MauiTopicExtractor] Topic Prices 1 0.2457663506666829 > false
+14:10:32,375 INFO  [MauiTopicExtractor] Topic Pricing 1 0.2457663506666829 > false
+14:10:32,375 INFO  [MauiTopicExtractor] Topic Business 1 0.2122945997393916 > false
+14:10:32,375 INFO  [MauiTopicExtractor] Topic Commerce 1 0.2122945997393916 > false
+14:10:32,375 INFO  [MauiTopicExtractor] Topic Charities 1 0.1884695566618017 > false
+14:10:32,376 INFO  [MauiTopicExtractor] Topic Social service 1 0.1884695566618017 > false
+14:10:32,376 INFO  [MauiTopicExtractor] Topic Game theory 1 0.17647671915410074 > false
+14:10:32,376 INFO  [MauiTopicExtractor] Topic Prices 1 0.16243301733334956 > false
+14:10:32,376 INFO  [MauiTopicExtractor] Topic Games for one 1 0.14508640300150524 > false
+14:10:32,401 INFO  [MauiTopicExtractor] -- Processing document: J-13.txt
+14:10:32,401 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:32,401 INFO  [MauiTopicExtractor] Topic Auctioneers 1 0.4088196559972159 > false
+14:10:32,401 INFO  [MauiTopicExtractor] Topic Auctions 1 0.4088196559972159 > false
+14:10:32,401 INFO  [MauiTopicExtractor] Topic Games 1 0.12283035141904561 > false
+14:10:32,401 INFO  [MauiTopicExtractor] Topic System theory 1 0.11108606712162834 > false
+14:10:32,401 INFO  [MauiTopicExtractor] Topic Charts, diagrams, etc. 1 0.07619675176305851 > false
+14:10:32,401 INFO  [MauiTopicExtractor] Topic Graphic methods 1 0.07619675176305851 > false
+14:10:32,401 INFO  [MauiTopicExtractor] Topic Polynomials 1 0.052186567287757765 > false
+14:10:32,401 INFO  [MauiTopicExtractor] Topic Trees 1 0.052186567287757765 > false
+14:10:32,401 INFO  [MauiTopicExtractor] Topic Trees 1 0.052186567287757765 > false
+14:10:32,401 INFO  [MauiTopicExtractor] Topic Connectives 1 0.050159762562432826 > false
+14:10:32,436 INFO  [MauiTopicExtractor] -- Processing document: J-14.txt
+14:10:32,436 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:32,436 INFO  [MauiTopicExtractor] Topic Polynomials 1 0.26138409026435055 > false
+14:10:32,436 INFO  [MauiTopicExtractor] Topic Games 1 0.2457663506666829 > false
+14:10:32,436 INFO  [MauiTopicExtractor] Topic Charities 1 0.22195545195545194 > true
+14:10:32,436 INFO  [MauiTopicExtractor] Topic Social service 1 0.22195545195545194 > true
+14:10:32,436 INFO  [MauiTopicExtractor] Topic Social problems 1 0.22195545195545194 > true
+14:10:32,436 INFO  [MauiTopicExtractor] Topic Numbers, Rational 1 0.20807659138202675 > false
+14:10:32,436 INFO  [MauiTopicExtractor] Topic Game theory 1 0.177758770436152 > false
+14:10:32,436 INFO  [MauiTopicExtractor] Topic Trees 1 0.15757118267237313 > false
+14:10:32,436 INFO  [MauiTopicExtractor] Topic Trees 1 0.15757118267237313 > false
+14:10:32,436 INFO  [MauiTopicExtractor] Topic Public welfare 1 0.14695545195545198 > true
+14:10:32,479 INFO  [MauiTopicExtractor] -- Processing document: J-15.txt
+14:10:32,479 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:32,479 INFO  [MauiTopicExtractor] Topic Auctioneers 1 0.4088196559972159 > true
+14:10:32,479 INFO  [MauiTopicExtractor] Topic Auctions 1 0.4088196559972159 > true
+14:10:32,479 INFO  [MauiTopicExtractor] Topic Pricing 1 0.33590461291462226 > false
+14:10:32,479 INFO  [MauiTopicExtractor] Topic Best sellers 1 0.18053414563533612 > false
+14:10:32,479 INFO  [MauiTopicExtractor] Topic Prices 1 0.14590461291462217 > false
+14:10:32,479 INFO  [MauiTopicExtractor] Topic Representative government and representation 1 0.14508640300150524 > false
+14:10:32,480 INFO  [MauiTopicExtractor] Topic Prices 1 0.13590461291462216 > false
+14:10:32,480 INFO  [MauiTopicExtractor] Topic Utilization 1 0.13156756440113523 > false
+14:10:32,480 INFO  [MauiTopicExtractor] Topic Public utilities 1 0.13156756440113523 > false
+14:10:32,480 INFO  [MauiTopicExtractor] Topic Logic 1 0.10241548748021849 > false
+14:10:32,523 INFO  [MauiTopicExtractor] -- Processing document: J-17.txt
+14:10:32,523 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:32,523 INFO  [MauiTopicExtractor] Topic Scheduling 1 0.4161725971736866 > true
+14:10:32,523 INFO  [MauiTopicExtractor] Topic Mechanics 1 0.25048632266388265 > false
+14:10:32,523 INFO  [MauiTopicExtractor] Topic Mechanization 1 0.25048632266388265 > false
+14:10:32,523 INFO  [MauiTopicExtractor] Topic Truth 1 0.14493076710832709 > false
+14:10:32,523 INFO  [MauiTopicExtractor] Topic Machinability 1 0.13497406280462848 > false
+14:10:32,523 INFO  [MauiTopicExtractor] Topic Machining 1 0.13497406280462848 > false
+14:10:32,523 INFO  [MauiTopicExtractor] Topic Machinery 1 0.13169537428003833 > false
+14:10:32,524 INFO  [MauiTopicExtractor] Topic Settings 1 0.11434782290806704 > false
+14:10:32,524 INFO  [MauiTopicExtractor] Topic Social problems 1 0.11224917986546964 > false
+14:10:32,524 INFO  [MauiTopicExtractor] Topic Social choice 1 0.11108606712162834 > false
+14:10:32,552 INFO  [MauiTopicExtractor] -- Processing document: J-18.txt
+14:10:32,552 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:32,552 INFO  [MauiTopicExtractor] Topic Auctioneers 1 0.4088196559972159 > true
+14:10:32,552 INFO  [MauiTopicExtractor] Topic Auctions 1 0.4088196559972159 > true
+14:10:32,552 INFO  [MauiTopicExtractor] Topic Mediation 1 0.35122921672073015 > true
+14:10:32,552 INFO  [MauiTopicExtractor] Topic Games 1 0.251901616367166 > false
+14:10:32,552 INFO  [MauiTopicExtractor] Topic Positions 1 0.23705524327290575 > false
+14:10:32,553 INFO  [MauiTopicExtractor] Topic Equilibrium 1 0.1528695815078899 > true
+14:10:32,553 INFO  [MauiTopicExtractor] Topic Web search engines 1 0.10851604562981683 > false
+14:10:32,553 INFO  [MauiTopicExtractor] Topic Game theory 1 0.07775877043615202 > false
+14:10:32,553 INFO  [MauiTopicExtractor] Topic Games for one 1 0.0702326994754768 > false
+14:10:32,553 INFO  [MauiTopicExtractor] Topic Shell games 1 0.0702326994754768 > false
+14:10:32,582 INFO  [MauiTopicExtractor] -- Processing document: J-2.txt
+14:10:32,582 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:32,582 INFO  [MauiTopicExtractor] Topic Down payments 1 0.23243076710832708 > false
+14:10:32,582 INFO  [MauiTopicExtractor] Topic Payment 1 0.23243076710832708 > false
+14:10:32,582 INFO  [MauiTopicExtractor] Topic Linear programming 1 0.21528878528878526 > false
+14:10:32,583 INFO  [MauiTopicExtractor] Topic Linear programming 1 0.21528878528878526 > false
+14:10:32,583 INFO  [MauiTopicExtractor] Topic Mechanics 1 0.16884381058658798 > true
+14:10:32,583 INFO  [MauiTopicExtractor] Topic Mechanization 1 0.16884381058658798 > true
+14:10:32,583 INFO  [MauiTopicExtractor] Topic Optimism 1 0.1565031301340007 > false
+14:10:32,583 INFO  [MauiTopicExtractor] Topic Auctions 1 0.1540311490878799 > false
+14:10:32,583 INFO  [MauiTopicExtractor] Topic Auctioneers 1 0.1415311490878799 > false
+14:10:32,583 INFO  [MauiTopicExtractor] Topic Worsted 1 0.13794772288631557 > false
+14:10:32,625 INFO  [MauiTopicExtractor] -- Processing document: J-20.txt
+14:10:32,625 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:32,625 INFO  [MauiTopicExtractor] Topic Foreign exchange market 1 0.31969087376730687 > false
+14:10:32,625 INFO  [MauiTopicExtractor] Topic Matches 1 0.14528536615128806 > true
+14:10:32,625 INFO  [MauiTopicExtractor] Topic Marketing 1 0.14316635438401684 > false
+14:10:32,625 INFO  [MauiTopicExtractor] Topic Markets 1 0.13988766585942666 > false
+14:10:32,625 INFO  [MauiTopicExtractor] Topic Aftermarkets 1 0.13988766585942666 > false
+14:10:32,625 INFO  [MauiTopicExtractor] Topic Exchange 1 0.13988766585942666 > true
+14:10:32,625 INFO  [MauiTopicExtractor] Topic Marketing 1 0.13591941189117268 > false
+14:10:32,625 INFO  [MauiTopicExtractor] Topic Cycles 1 0.12884634039783632 > false
+14:10:32,625 INFO  [MauiTopicExtractor] Topic Pricing 1 0.1280221508461136 > false
+14:10:32,625 INFO  [MauiTopicExtractor] Topic Integer programming 1 0.11108606712162834 > false
+14:10:32,633 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+14:10:32,633 WARN  [MauiFilter] information market
+dynamic parimutuel market
+projection game model
+prediction market
+market scoring rule
+spherical scoring rule
+long-range manipulative strategy
+social and behavioral sciences-economics
+liquidation time
+spherical scoring rule
+strategic analysis
+dpm
+msr
+projection game
+
+14:10:32,814 INFO  [MauiTopicExtractor] -- Processing document: J-21.txt
+14:10:32,815 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:32,815 INFO  [MauiTopicExtractor] Topic Games 1 0.2159046129146222 > false
+14:10:32,815 INFO  [MauiTopicExtractor] Topic Game theory 1 0.177758770436152 > false
+14:10:32,815 INFO  [MauiTopicExtractor] Topic Commerce 1 0.1628695815078899 > false
+14:10:32,815 INFO  [MauiTopicExtractor] Topic Business 1 0.1502902466513273 > false
+14:10:32,815 INFO  [MauiTopicExtractor] Topic Wagers 1 0.148541930508489 > false
+14:10:32,815 INFO  [MauiTopicExtractor] Topic Games 1 0.13590461291462216 > false
+14:10:32,815 INFO  [MauiTopicExtractor] Topic Games 1 0.13590461291462216 > false
+14:10:32,815 INFO  [MauiTopicExtractor] Topic Forecasting 1 0.12401566007488182 > false
+14:10:32,815 INFO  [MauiTopicExtractor] Topic Pricing 1 0.12154830013699433 > false
+14:10:32,815 INFO  [MauiTopicExtractor] Topic Profit 1 0.1040747144882183 > false
+14:10:32,855 INFO  [MauiTopicExtractor] -- Processing document: J-22.txt
+14:10:32,855 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:32,855 INFO  [MauiTopicExtractor] Topic Wagers 1 0.4399544354904085 > false
+14:10:32,855 INFO  [MauiTopicExtractor] Topic Gambling 1 0.42884332437929745 > false
+14:10:32,855 INFO  [MauiTopicExtractor] Topic Auctioneers 1 0.1884189739852807 > false
+14:10:32,855 INFO  [MauiTopicExtractor] Topic Auctions 1 0.1884189739852807 > false
+14:10:32,856 INFO  [MauiTopicExtractor] Topic Computational complexity 1 0.12817250722482243 > true
+14:10:32,856 INFO  [MauiTopicExtractor] Topic Pricing 1 0.12599534612078864 > false
+14:10:32,856 INFO  [MauiTopicExtractor] Topic Social classes 1 0.12297393580750664 > false
+14:10:32,856 INFO  [MauiTopicExtractor] Topic Ordered sets 1 0.10929116628081222 > false
+14:10:32,856 INFO  [MauiTopicExtractor] Topic Matches 1 0.09340236268959967 > false
+14:10:32,856 INFO  [MauiTopicExtractor] Topic Computer science 1 0.08006630939770934 > false
+14:10:32,887 INFO  [MauiTopicExtractor] -- Processing document: J-23.txt
+14:10:32,888 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:32,888 INFO  [MauiTopicExtractor] Topic Auctioneers 1 0.3160660328088102 > true
+14:10:32,888 INFO  [MauiTopicExtractor] Topic Auctions 1 0.3160660328088102 > true
+14:10:32,888 INFO  [MauiTopicExtractor] Topic Mechanics 1 0.21911805483273267 > false
+14:10:32,888 INFO  [MauiTopicExtractor] Topic Mechanization 1 0.21911805483273267 > false
+14:10:32,888 INFO  [MauiTopicExtractor] Topic Down payments 1 0.1884189739852807 > false
+14:10:32,888 INFO  [MauiTopicExtractor] Topic Payment 1 0.1884189739852807 > false
+14:10:32,888 INFO  [MauiTopicExtractor] Topic Truth 1 0.16095143894295236 > false
+14:10:32,888 INFO  [MauiTopicExtractor] Topic Charts, diagrams, etc. 1 0.1355199006210911 > false
+14:10:32,888 INFO  [MauiTopicExtractor] Topic Graphic methods 1 0.1355199006210911 > false
+14:10:32,888 INFO  [MauiTopicExtractor] Topic Tobin's q 1 0.09615598587800547 > false
+14:10:32,926 INFO  [MauiTopicExtractor] -- Processing document: J-25.txt
+14:10:32,926 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:32,926 INFO  [MauiTopicExtractor] Topic Wagers 1 0.24077384331453708 > true
+14:10:32,926 INFO  [MauiTopicExtractor] Topic Gambling 1 0.23663467939814545 > true
+14:10:32,926 INFO  [MauiTopicExtractor] Topic Commerce 1 0.22335512816022993 > false
+14:10:32,926 INFO  [MauiTopicExtractor] Topic Auctioneers 1 0.16006902935626632 > false
+14:10:32,926 INFO  [MauiTopicExtractor] Topic Auctions 1 0.16006902935626632 > false
+14:10:32,926 INFO  [MauiTopicExtractor] Topic Purchasing 1 0.15681619691738735 > false
+14:10:32,926 INFO  [MauiTopicExtractor] Topic Securities 1 0.14079675676851758 > false
+14:10:32,926 INFO  [MauiTopicExtractor] Topic Building trades 1 0.13784002618991104 > false
+14:10:32,926 INFO  [MauiTopicExtractor] Topic Industrial arts 1 0.13784002618991104 > false
+14:10:32,926 INFO  [MauiTopicExtractor] Topic Pricing 1 0.13468881751278025 > false
+14:10:32,935 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+14:10:32,935 WARN  [MauiFilter] optimal set of contract
+contract optimal set
+classical principalagent
+quality of service
+service quality
+combinatorial agency
+nash equilibrium
+contractible action
+k-orbit
+anonymous technology
+series-parallel network
+price of unaccountability
+unaccountability price
+agency theory
+principal-agent model
+incentive
+con
+
+14:10:32,961 INFO  [MauiTopicExtractor] -- Processing document: J-26.txt
+14:10:32,961 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:32,961 INFO  [MauiTopicExtractor] Topic Contracting out 1 0.26006902935626636 > false
+14:10:32,961 INFO  [MauiTopicExtractor] Topic Research and development contracts 1 0.26006902935626636 > false
+14:10:32,961 INFO  [MauiTopicExtractor] Topic Abbreviations 1 0.26006902935626636 > false
+14:10:32,961 INFO  [MauiTopicExtractor] Topic Contracts 1 0.26006902935626636 > false
+14:10:32,961 INFO  [MauiTopicExtractor] Topic Ciphers 1 0.26006902935626636 > false
+14:10:32,961 INFO  [MauiTopicExtractor] Topic Transition temperature 1 0.20490021139491685 > false
+14:10:32,961 INFO  [MauiTopicExtractor] Topic Contraction 1 0.16006902935626632 > false
+14:10:32,961 INFO  [MauiTopicExtractor] Topic Economics 1 0.10901158679640652 > false
+14:10:32,961 INFO  [MauiTopicExtractor] Topic Mechanization 1 0.10107930862339093 > false
+14:10:32,961 INFO  [MauiTopicExtractor] Topic Charities 1 0.0920296759770444 > false
+14:10:32,984 INFO  [MauiTopicExtractor] -- Processing document: J-27.txt
+14:10:32,984 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:32,984 INFO  [MauiTopicExtractor] Topic Learning 1 0.308819655997216 > false
+14:10:32,984 INFO  [MauiTopicExtractor] Topic Pricing 1 0.17090461291462217 > false
+14:10:32,984 INFO  [MauiTopicExtractor] Topic Learning 1 0.12548632266388263 > false
+14:10:32,984 INFO  [MauiTopicExtractor] Topic Marginal utility 1 0.11008680216025528 > false
+14:10:32,984 INFO  [MauiTopicExtractor] Topic Economics 1 0.09425212105212212 > false
+14:10:32,984 INFO  [MauiTopicExtractor] Topic Futurologists 1 0.08181619691738738 > true
+14:10:32,984 INFO  [MauiTopicExtractor] Topic Prices 1 0.07090461291462218 > false
+14:10:32,984 INFO  [MauiTopicExtractor] Topic Prices 1 0.06423794624795551 > false
+14:10:32,985 INFO  [MauiTopicExtractor] Topic Utilization 1 0.060069029356266346 > false
+14:10:32,985 INFO  [MauiTopicExtractor] Topic Public utilities 1 0.060069029356266346 > false
+14:10:33,017 INFO  [MauiTopicExtractor] -- Processing document: J-28.txt
+14:10:33,017 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:33,017 INFO  [MauiTopicExtractor] Topic Auctioneers 1 0.4088196559972159 > false
+14:10:33,017 INFO  [MauiTopicExtractor] Topic Auctions 1 0.4088196559972159 > false
+14:10:33,017 INFO  [MauiTopicExtractor] Topic Mechanics 1 0.27115439973354055 > false
+14:10:33,017 INFO  [MauiTopicExtractor] Topic Mechanization 1 0.27115439973354055 > false
+14:10:33,017 INFO  [MauiTopicExtractor] Topic Best sellers 1 0.18053414563533612 > false
+14:10:33,018 INFO  [MauiTopicExtractor] Topic Polynomials 1 0.157475044426895 > false
+14:10:33,018 INFO  [MauiTopicExtractor] Topic Truth 1 0.1313686012513524 > false
+14:10:33,018 INFO  [MauiTopicExtractor] Topic Pricing 1 0.12599534612078864 > false
+14:10:33,018 INFO  [MauiTopicExtractor] Topic Cost accounting 1 0.09340236268959967 > false
+14:10:33,018 INFO  [MauiTopicExtractor] Topic Costs 1 0.09340236268959967 > false
+14:10:33,054 INFO  [MauiTopicExtractor] -- Processing document: J-3.txt
+14:10:33,054 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:33,054 INFO  [MauiTopicExtractor] Topic Advertising 1 0.4248678305821163 > true
+14:10:33,054 INFO  [MauiTopicExtractor] Topic Auctioneers 1 0.4088196559972159 > true
+14:10:33,054 INFO  [MauiTopicExtractor] Topic Auctions 1 0.4088196559972159 > true
+14:10:33,054 INFO  [MauiTopicExtractor] Topic Advertisers 1 0.3262292167207302 > true
+14:10:33,054 INFO  [MauiTopicExtractor] Topic Optimism 1 0.27010957330954327 > true
+14:10:33,054 INFO  [MauiTopicExtractor] Topic Search engines 1 0.16266593198920645 > false
+14:10:33,054 INFO  [MauiTopicExtractor] Topic Budget 1 0.14605571308732898 > false
+14:10:33,054 INFO  [MauiTopicExtractor] Topic Matches 1 0.14528536615128806 > false
+14:10:33,054 INFO  [MauiTopicExtractor] Topic Internet 1 0.1313686012513524 > true
+14:10:33,054 INFO  [MauiTopicExtractor] Topic Questions and answers 1 0.12884634039783632 > false
+14:10:33,063 WARN  [MauiFilter] Warning! This documents does not contain valid keyphrases
+14:10:33,063 WARN  [MauiFilter] bounded action space
+implementation
+dominant strategy
+social-choice function
+decision function
+single-crossing condition
+multilinear function
+optimal mechanism
+action-bounded mechanism
+probability of success
+success probability
+mechansm design
+single-cross condition
+communication complexity
+
+14:10:33,093 INFO  [MauiTopicExtractor] -- Processing document: J-30.txt
+14:10:33,093 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:33,093 INFO  [MauiTopicExtractor] Topic Social values 1 0.30490021139491685 > false
+14:10:33,093 INFO  [MauiTopicExtractor] Topic Mechanization 1 0.25773269947547683 > false
+14:10:33,094 INFO  [MauiTopicExtractor] Topic Social problems 1 0.19652269358481608 > false
+14:10:33,094 INFO  [MauiTopicExtractor] Topic Humanitarianism 1 0.19652269358481608 > false
+14:10:33,094 INFO  [MauiTopicExtractor] Topic Charities 1 0.1920296759770444 > false
+14:10:33,094 INFO  [MauiTopicExtractor] Topic Social service 1 0.1920296759770444 > false
+14:10:33,094 INFO  [MauiTopicExtractor] Topic Public welfare 1 0.1920296759770444 > false
+14:10:33,094 INFO  [MauiTopicExtractor] Topic Mechanics 1 0.17023269947547678 > false
+14:10:33,094 INFO  [MauiTopicExtractor] Topic Games for one 1 0.14508640300150524 > false
+14:10:33,094 INFO  [MauiTopicExtractor] Topic Shell games 1 0.14508640300150524 > false
+14:10:33,122 INFO  [MauiTopicExtractor] -- Processing document: J-31.txt
+14:10:33,122 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:33,122 INFO  [MauiTopicExtractor] Topic Strategy 1 0.2615974337749938 > false
+14:10:33,122 INFO  [MauiTopicExtractor] Topic Game theory 1 0.19001785168705493 > true
+14:10:33,122 INFO  [MauiTopicExtractor] Topic Games for one 1 0.16006902935626632 > false
+14:10:33,122 INFO  [MauiTopicExtractor] Topic Shell games 1 0.16006902935626632 > false
+14:10:33,122 INFO  [MauiTopicExtractor] Topic Equilibrium 1 0.1528695815078899 > false
+14:10:33,122 INFO  [MauiTopicExtractor] Topic Games 1 0.14590461291462217 > false
+14:10:33,122 INFO  [MauiTopicExtractor] Topic Games 1 0.13590461291462216 > false
+14:10:33,123 INFO  [MauiTopicExtractor] Topic Games 1 0.13590461291462216 > false
+14:10:33,123 INFO  [MauiTopicExtractor] Topic Leadership 1 0.13084462412504388 > true
+14:10:33,123 INFO  [MauiTopicExtractor] Topic Linear programming 1 0.11528878528878532 > false
+14:10:33,158 INFO  [MauiTopicExtractor] -- Processing document: J-32.txt
+14:10:33,159 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:33,159 INFO  [MauiTopicExtractor] Topic Games 1 0.3346552395555718 > false
+14:10:33,159 INFO  [MauiTopicExtractor] Topic Charts, diagrams, etc. 1 0.26386747896866947 > false
+14:10:33,159 INFO  [MauiTopicExtractor] Topic Trees 1 0.2516377134527563 > false
+14:10:33,159 INFO  [MauiTopicExtractor] Topic Trees 1 0.2516377134527563 > false
+14:10:33,159 INFO  [MauiTopicExtractor] Topic Graphic arts 1 0.23496000082214824 > false
+14:10:33,159 INFO  [MauiTopicExtractor] Topic Graphic methods 1 0.19493076710832707 > false
+14:10:33,159 INFO  [MauiTopicExtractor] Topic Game theory 1 0.177758770436152 > false
+14:10:33,159 INFO  [MauiTopicExtractor] Topic Computers 1 0.11434782290806704 > false
+14:10:33,159 INFO  [MauiTopicExtractor] Topic Computers 1 0.11434782290806704 > false
+14:10:33,159 INFO  [MauiTopicExtractor] Topic Polynomials 1 0.07007118267237314 > false
+14:10:33,183 INFO  [MauiTopicExtractor] -- Processing document: J-4.txt
+14:10:33,183 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:33,183 INFO  [MauiTopicExtractor] Topic Web search engines 1 0.3184750337381916 > false
+14:10:33,183 INFO  [MauiTopicExtractor] Topic Auctioneers 1 0.3160660328088102 > false
+14:10:33,183 INFO  [MauiTopicExtractor] Topic Auctions 1 0.3160660328088102 > false
+14:10:33,183 INFO  [MauiTopicExtractor] Topic Search engines 1 0.18810759475176056 > true
+14:10:33,183 INFO  [MauiTopicExtractor] Topic Advertising 1 0.1638674789686694 > true
+14:10:33,183 INFO  [MauiTopicExtractor] Topic Advertisers 1 0.15386747896866942 > true
+14:10:33,183 INFO  [MauiTopicExtractor] Topic Revenue 1 0.14470125020789473 > true
+14:10:33,184 INFO  [MauiTopicExtractor] Topic Social classes 1 0.13479350180351107 > false
+14:10:33,184 INFO  [MauiTopicExtractor] Topic Pricing 1 0.12283035141904561 > false
+14:10:33,184 INFO  [MauiTopicExtractor] Topic Rule family 1 0.11801099134119783 > false
+14:10:33,212 INFO  [MauiTopicExtractor] -- Processing document: J-7.txt
+14:10:33,212 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:33,212 INFO  [MauiTopicExtractor] Topic Social networks 1 0.3132442067736185 > false
+14:10:33,212 INFO  [MauiTopicExtractor] Topic Social networks 1 0.3103030303030303 > false
+14:10:33,213 INFO  [MauiTopicExtractor] Topic Games 1 0.22627498328499254 > false
+14:10:33,213 INFO  [MauiTopicExtractor] Topic Spherical harmonics 1 0.19028878528878532 > true
+14:10:33,213 INFO  [MauiTopicExtractor] Topic Harmonic analysis 1 0.19028878528878532 > true
+14:10:33,213 INFO  [MauiTopicExtractor] Topic Equilibrium 1 0.14528536615128806 > false
+14:10:33,213 INFO  [MauiTopicExtractor] Topic Games for one 1 0.14043939972663672 > false
+14:10:33,213 INFO  [MauiTopicExtractor] Topic Shell games 1 0.14043939972663672 > false
+14:10:33,213 INFO  [MauiTopicExtractor] Topic Strategy 1 0.14043939972663672 > false
+14:10:33,213 INFO  [MauiTopicExtractor] Topic Diffusion 1 0.13823868934673839 > false
+14:10:33,237 INFO  [MauiTopicExtractor] -- Processing document: J-8.txt
+14:10:33,238 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:33,238 INFO  [MauiTopicExtractor] Topic Connection games 1 0.41980519480519485 > false
+14:10:33,238 INFO  [MauiTopicExtractor] Topic Game theory 1 0.40053328815607675 > true
+14:10:33,238 INFO  [MauiTopicExtractor] Topic Costs 1 0.16895037495146434 > false
+14:10:33,238 INFO  [MauiTopicExtractor] Topic Connectives 1 0.16282265254467215 > false
+14:10:33,238 INFO  [MauiTopicExtractor] Topic Equilibrium 1 0.16159743377499372 > false
+14:10:33,238 INFO  [MauiTopicExtractor] Topic Charts, diagrams, etc. 1 0.15340236268959967 > false
+14:10:33,238 INFO  [MauiTopicExtractor] Topic Games 1 0.14576635066668292 > false
+14:10:33,238 INFO  [MauiTopicExtractor] Topic Games for one 1 0.07409743377499371 > false
+14:10:33,238 INFO  [MauiTopicExtractor] Topic Shell games 1 0.07409743377499371 > false
+14:10:33,238 INFO  [MauiTopicExtractor] Topic Cost accounting 1 0.06895037495146432 > false
+14:10:33,273 INFO  [MauiTopicExtractor] -- Processing document: J-9.txt
+14:10:33,273 INFO  [MauiTopicExtractor] -- Keyphrases and feature values:
+14:10:33,273 INFO  [MauiTopicExtractor] Topic Business 1 0.3237097965337593 > false
+14:10:33,273 INFO  [MauiTopicExtractor] Topic Commerce 1 0.24900819536927604 > false
+14:10:33,273 INFO  [MauiTopicExtractor] Topic Building trades 1 0.15757118267237313 > false
+14:10:33,273 INFO  [MauiTopicExtractor] Topic Industrial arts 1 0.15757118267237313 > false
+14:10:33,273 INFO  [MauiTopicExtractor] Topic Occupations 1 0.1528695815078899 > false
+14:10:33,273 INFO  [MauiTopicExtractor] Topic Wagers 1 0.14867874813059875 > false
+14:10:33,273 INFO  [MauiTopicExtractor] Topic Marketing 1 0.14316635438401684 > false
+14:10:33,273 INFO  [MauiTopicExtractor] Topic Markets 1 0.13988766585942666 > false
+14:10:33,273 INFO  [MauiTopicExtractor] Topic Marketing 1 0.13988766585942666 > false
+14:10:33,273 INFO  [MauiTopicExtractor] Topic Aftermarkets 1 0.13988766585942666 > false

@@ -22,7 +22,7 @@ dependencies {
         exclude group: 'nz.ac.waikato.cms.weka', module: 'weka-stable'
     }
 
-
+    compile 'nz.ac.waikato.cms.weka:weka-stable:3.6.6'
     compile 'commons-io:commons-io:2.4'
     compile 'net.sourceforge.nekohtml:nekohtml:1.9.21'
     compile 'xerces:xercesImpl:2.11.0'
