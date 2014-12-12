@@ -13,7 +13,7 @@ import java.util.*;
 public class KeywordHandeler {
 
    String vocabularyName = "lcsh.rdf.gz";
-   String modelName = "frank";
+   String modelName = "SemEval2010";
    MauiWrapper keywordsExtractor;
    int keywordsLimit = 30;
    String regexCSV = "[^A-Za-z0-9() ]"; 

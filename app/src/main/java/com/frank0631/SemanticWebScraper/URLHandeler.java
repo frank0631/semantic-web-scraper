@@ -8,8 +8,18 @@ import java.util.regex.*;
 //Scrapes list of URLs
 public class URLHandeler {
 
-   public void URLsFromBookmarks(String bookmarks_filename,String urlout_filename, boolean inHREF) {
+   int reachTimeoutSec = 3;
+   int readTimeoutSec = 6;
+   ArrayList<String> urlSchemas = new ArrayList<String>();
 
+   public URLHandeler(){
+      urlSchemas.add("http://");
+      urlSchemas.add("https://");
+      urlSchemas.add("http://www.");
+      urlSchemas.add("https://www.");
+   }
+
+   public void URLsFromBookmarks(String bookmarks_filename,String urlout_filename, boolean inHREF) {
       ArrayList<String> url_array = new ArrayList<String>();
       File bookmarks_file = new File(bookmarks_filename);
 
@@ -48,23 +58,19 @@ public class URLHandeler {
    }
 
    public ArrayList<String> readURLrows(String readfilename){
-
       File readfile = new File(readfilename);
       ArrayList<String> URLs = new ArrayList<String>();
-
+      String url_str = null;
       if(readfile.exists())
          try{
             BufferedReader br = new BufferedReader(new FileReader(readfilename));
             for(String line; (line = br.readLine()) != null; ) {
-
-               String url_str= line;
-
-               if (!url_str.toLowerCase().startsWith("http://") &&
-                       !url_str.toLowerCase().startsWith("https://") )
-                  url_str = "http://" + url_str;
-
-               if(!URLs.contains(url_str))
+               url_str= valid(line);
+               if(url_str!=null && !URLs.contains(url_str)) {
                   URLs.add(url_str);
+                  System.out.println("added to URL list: "+url_str);
+               }else
+                  System.out.println("URL not valid: "+line);
             }
          }
          catch (Exception e) {
@@ -72,6 +78,49 @@ public class URLHandeler {
          }
 
       return URLs;
+   }
+
+   public String valid(String url_str){
+
+      if (ping(url_str))
+         return url_str;
+
+      for(String prefix : urlSchemas)
+         if (ping(prefix+url_str))
+            return prefix+url_str;
+
+      return null;
+   }
+
+   public boolean ping(String url_str){
+
+      //false if malformed URL
+      try {
+         URL url = new URL(url_str);
+         return ping(url);
+      }
+      catch (IOException ex){
+         return false;
+      }
+   }
+
+   public boolean ping(URL url){
+
+      //ping url, false if not responding or no connection
+      try {
+         final HttpURLConnection urlping = (HttpURLConnection) url.openConnection();
+         urlping.setConnectTimeout(1000 * reachTimeoutSec);
+         urlping.setRequestMethod("GET");
+         urlping.setReadTimeout(1000 * readTimeoutSec);
+         urlping.setInstanceFollowRedirects(false);
+         urlping.connect();
+         urlping.disconnect();
+         if (urlping.getResponseCode() == HttpURLConnection.HTTP_OK)
+            return true;
+         return false;
+      }catch (IOException ex){
+         return false;
+      }
    }
 
 }

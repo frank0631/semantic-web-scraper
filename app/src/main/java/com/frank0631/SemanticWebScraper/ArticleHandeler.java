@@ -19,11 +19,10 @@ import java.util.Map;
 //Scrapes articles from URLs
 public class ArticleHandeler {
 
+   URLHandeler urlHandeler;
    ArticleExtractor article_extractor;
    HTMLHighlighter html_highlighter;
-   String regexURL = "[^A-Za-z0-9()]";         
-   int reachTimeoutSec = 3;
-   int readTimeoutSec = 6;
+   String regexURL = "[^A-Za-z0-9()]";
    String storePath= "URLs/";
    
    String[] skipExt;
@@ -36,25 +35,11 @@ public class ArticleHandeler {
    public ArticleHandeler(String path){
       storePath=path;
       new File(storePath).mkdir();
+      urlHandeler = new URLHandeler();
       article_extractor = new ArticleExtractor();
       html_highlighter = HTMLHighlighter.newHighlightingInstance();
       System.setProperty("sun.net.http.allowRestrictedHeaders", "true");
       skipExt = (new String[]{".pdf", ".doc", ".ppt"});
-   }
-   
-   public boolean ping(URL url) throws IOException{
-   
-   //ping url, false if not responding
-      final HttpURLConnection urlping = (HttpURLConnection) url.openConnection();
-      urlping.setConnectTimeout(1000 * reachTimeoutSec);
-      urlping.setRequestMethod("GET");
-      urlping.setReadTimeout(1000 * readTimeoutSec);
-      urlping.setInstanceFollowRedirects(false);
-      urlping.connect();
-      urlping.disconnect();
-      if (urlping.getResponseCode() == HttpURLConnection.HTTP_OK)
-         return true;
-      return false;
    }
    
    public String htmlHilight(String url_str, boolean write) throws IOException,UnsupportedExtension{
@@ -74,7 +59,7 @@ public class ArticleHandeler {
       if(html_file.exists())//read
          article_html =  fileToString(html_file);
       else{
-         if(ping(url)){
+         if(urlHandeler.ping(url)){
             try{
                article_html =  html_highlighter.process(url, article_extractor);
             }
@@ -134,7 +119,7 @@ public class ArticleHandeler {
          }
          else if(cacheOnly==false){
             URL url = new URL(url_str);
-            if(ping(url))
+            if(urlHandeler.ping(url))
                try{
                   article_text = article_extractor.getText(url);
                }

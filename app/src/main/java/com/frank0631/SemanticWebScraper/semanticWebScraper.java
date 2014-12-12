@@ -5,16 +5,16 @@ import java.util.*;
 public class semanticWebScraper {
 
    //hadcode for now
-   String url_file_name = "cosmo_urls.txt";
-   String badurl_file_name = "cosmo_urls_bad.txt";
-   String distribution_file_name = "cosmo_distribution.csv";
-   String matrix_file_name = "cosmo_matrix.csv";
+   String url_file_name = "frank_mega_urls.txt";
+   String badurl_file_name = "frank_mega_urls_bad.txt";
+   String distribution_file_name = "frank_mega_distribution.csv";
+   String matrix_file_name = "frank_mega_matrix.csv";
 
    ArrayList<String> URLs;
    ArrayList<String> Bad_URLs; 
-   Map url_text_map = new LinkedHashMap();
+   Map url_text_map;
 
-   boolean skipBad = false;
+   boolean skipBad = true;
    boolean cacheOnly = false;
    
    ArrayList<String> keywords_list;
@@ -30,7 +30,7 @@ public class semanticWebScraper {
          BadURLs = urlHandel.readURLrows(badurl_file_name);  
          Map summeryMap = new LinkedHashMap();
          ArticleHandeler ae = new ArticleHandeler("URLs/");
-         ae.cacheArticles(URLs);
+         //ae.cacheArticles(URLs);
          summeryMap = ae.summeryMap(URLs, 50, badurl_file_name, skipBad,cacheOnly); //badurl_file_name
          System.out.println("Number of URL Summeries "+summeryMap.size());
           
