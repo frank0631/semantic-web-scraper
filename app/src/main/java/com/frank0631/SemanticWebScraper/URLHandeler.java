@@ -1,25 +1,24 @@
 package com.frank0631.SemanticWebScraper;
 
-import java.io.*;
-import java.net.*;
-import java.util.*;
-import java.util.regex.*;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.PrintWriter;
+import java.util.ArrayList;
+import java.util.Scanner;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 //Scrapes list of URLs
 public class URLHandeler {
 
-   int reachTimeoutSec = 3;
-   int readTimeoutSec = 6;
-   ArrayList<String> urlSchemas = new ArrayList<String>();
-
-   public URLHandeler(){
-      urlSchemas.add("http://");
-      urlSchemas.add("https://");
-      urlSchemas.add("http://www.");
-      urlSchemas.add("https://www.");
+   public URLHandeler() {
    }
 
-   public void URLsFromBookmarks(String bookmarks_filename,String urlout_filename, boolean inHREF) {
+   //TODO make this return URLCouples instead of writing to file
+   public void readURLsFromBookmarks(String bookmarks_filename, String urlout_filename, boolean inHREF) {
       ArrayList<String> url_array = new ArrayList<String>();
       File bookmarks_file = new File(bookmarks_filename);
 
@@ -28,99 +27,79 @@ public class URLHandeler {
          while (scanner.hasNextLine()) {
             String line = scanner.nextLine();
             Pattern p;
-            if(inHREF)
+            if (inHREF)
                p = Pattern.compile("HREF=\"(.*?)\"");
             else
                p = Pattern.compile("http(.*)");
             Matcher m = p.matcher(line);
-            while (m.find()){
-               if(inHREF)
+            while (m.find()) {
+               if (inHREF)
                   url_array.add(m.group(1));
                else
-                  url_array.add("http"+m.group(1));
+                  url_array.add("http" + m.group(1));
             }
             scanner.close();
          }
-      }
-      catch (Exception e) {
+      } catch (Exception e) {
          e.printStackTrace();
       }
 
       try {
          PrintWriter extracted_urls = new PrintWriter(urlout_filename, "US-ASCII");
-         for(String url:url_array)
+         for (String url : url_array)
             extracted_urls.println(url);
          extracted_urls.close();
-      }
-      catch (Exception e) {
+      } catch (Exception e) {
          e.printStackTrace();
       }
    }
 
-   public ArrayList<String> readURLrows(String readfilename){
+   public URLCouples readURLFromFiles(String validfilename, String invalidfilename) {
+      File validfile = new File(validfilename);
+      File invalidfile = new File(invalidfilename);
+      URLCouples urlCouples = new URLCouples();
+
+      try {
+         BufferedReader validFileBufferedReader = new BufferedReader(new FileReader(validfile));
+         BufferedReader invalidFileBufferedReader = new BufferedReader(new FileReader(invalidfile));
+
+         for (String line; (line = validFileBufferedReader.readLine()) != null; )
+            urlCouples.ValidURLs.add(line);
+
+         for (String line; (line = invalidFileBufferedReader.readLine()) != null; )
+            urlCouples.inValidURLs.add(line);
+
+      } catch (Exception e) {
+         e.printStackTrace();
+      }
+      return urlCouples;
+   }
+
+   public URLCouples readURLrows(String readfilename, int nThreads) {
       File readfile = new File(readfilename);
-      ArrayList<String> URLs = new ArrayList<String>();
-      String url_str = null;
-      if(readfile.exists())
-         try{
+      URLCouples urlCouples = new URLCouples();
+
+      if (readfile.exists())
+         try {
             BufferedReader br = new BufferedReader(new FileReader(readfilename));
-            for(String line; (line = br.readLine()) != null; ) {
-               url_str= valid(line);
-               if(url_str!=null && !URLs.contains(url_str)) {
-                  URLs.add(url_str);
-                  System.out.println("added to URL list: "+url_str);
-               }else
-                  System.out.println("URL not valid: "+line);
+            ExecutorService executor = Executors.newFixedThreadPool(nThreads);
+
+            //Multi Threaded URL Fetching
+            for (String line; (line = br.readLine()) != null; ) {
+               Runnable urlFetcher = new URLFetcher(urlCouples, line);
+               executor.execute(urlFetcher);
             }
-         }
-         catch (Exception e) {
+            executor.shutdown();
+            while (!executor.isTerminated()) {
+               Thread.sleep(100);
+            }
+         } catch (Exception e) {
             e.printStackTrace();
          }
-
-      return URLs;
+      System.out.println("Finished pinging URLs");
+      return urlCouples;
    }
 
-   public String valid(String url_str){
 
-      if (ping(url_str))
-         return url_str;
-
-      for(String prefix : urlSchemas)
-         if (ping(prefix+url_str))
-            return prefix+url_str;
-
-      return null;
-   }
-
-   public boolean ping(String url_str){
-
-      //false if malformed URL
-      try {
-         URL url = new URL(url_str);
-         return ping(url);
-      }
-      catch (IOException ex){
-         return false;
-      }
-   }
-
-   public boolean ping(URL url){
-
-      //ping url, false if not responding or no connection
-      try {
-         final HttpURLConnection urlping = (HttpURLConnection) url.openConnection();
-         urlping.setConnectTimeout(1000 * reachTimeoutSec);
-         urlping.setRequestMethod("GET");
-         urlping.setReadTimeout(1000 * readTimeoutSec);
-         urlping.setInstanceFollowRedirects(false);
-         urlping.connect();
-         urlping.disconnect();
-         if (urlping.getResponseCode() == HttpURLConnection.HTTP_OK)
-            return true;
-         return false;
-      }catch (IOException ex){
-         return false;
-      }
-   }
 
 }

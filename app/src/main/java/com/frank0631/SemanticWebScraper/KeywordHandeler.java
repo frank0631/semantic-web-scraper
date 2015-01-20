@@ -2,9 +2,9 @@ package com.frank0631.SemanticWebScraper;
 
 //import com.entopix.maui.main.MauiWrapper;
 //import com.entopix.maui.util.Topic;
-import com.entopix.maui.main.MauiWrapper;
-import com.entopix.maui.util.*;
 
+import com.entopix.maui.main.MauiWrapper;
+import com.entopix.maui.util.Topic;
 
 import java.io.File;
 import java.io.PrintWriter;
@@ -16,8 +16,6 @@ public class KeywordHandeler {
    String modelName = "SemEval2010";
    MauiWrapper keywordsExtractor;
    int keywordsLimit = 30;
-   String regexCSV = "[^A-Za-z0-9() ]"; 
-
 
    public KeywordHandeler(){
    
@@ -32,22 +30,27 @@ public class KeywordHandeler {
       Map urlKeywords = new LinkedHashMap();
       int i=0;
              
-   //loop urls text 
+      //loop urls text
       Iterator text_itt = urlSummeries.entrySet().iterator();
       while (text_itt.hasNext()) {
          Map.Entry<String, String>  pairs = (Map.Entry)text_itt.next();
          String url = pairs.getKey();
          String txtSummery = pairs.getValue();
          try{
-            ArrayList<Topic> keytopics = keywordsExtractor.extractTopicsFromText(txtSummery, keywordsLimit);
-            ArrayList<String> keywords = new ArrayList<String>();
-            for (Topic topic : keytopics)
-               keywords.add(topic.getTitle());
+            if(txtSummery!=null && !txtSummery.isEmpty()) {
+               ArrayList<Topic> keytopics = keywordsExtractor.extractTopicsFromText(txtSummery, keywordsLimit);
+               ArrayList<String> keywords = new ArrayList<String>();
+               for (Topic topic : keytopics)
+                  keywords.add(topic.getTitle());
 
-            //ArrayList<String> keywords = keywordsExtractor.extractTopicsFromText(txtSummery, keywordsLimit);
+               //ArrayList<String> keywords = keywordsExtractor.extractTopicsFromText(txtSummery, keywordsLimit);
+               urlKeywords.put(url, keywords);
+            }
+            else
+               urlKeywords.put(url, new ArrayList<String>());
 
-            urlKeywords.put(url, keywords);
-            System.out.println(++i);
+            i=i++;
+            //System.out.println(i);
          }
          catch(Exception e){
             e.printStackTrace();
@@ -72,8 +75,8 @@ public class KeywordHandeler {
       return keywordsList;
    }
          
-   public Map KeywordDistribution(Map urlKeywords, ArrayList<String> keywordsList, String keyword_distribution_file){
-   
+   public Map KeywordDistribution(Map urlKeywords, ArrayList<String> keywordsList){
+
       Map<String,Integer> keywords_distribution = new TreeMap<String,Integer>();
       //String keyword_distribution_file = "testURLs_mega_distribution.csv";
 
@@ -97,25 +100,6 @@ public class KeywordHandeler {
       ValueComparator distoCompare =  new ValueComparator(keywords_distribution);
       TreeMap<String,Integer> keywords_distribution_sorted = new TreeMap<String,Integer>(distoCompare);
       keywords_distribution_sorted.putAll(keywords_distribution);
-      ArrayList<String> keywordsList_sorted = new ArrayList<String>(keywords_distribution_sorted.keySet());
-      System.out.println(keywordsList_sorted);
-      
-      if(keyword_distribution_file!=null && !keyword_distribution_file.isEmpty())
-         try{
-         //print keyword distribution
-            PrintWriter distribution_text = new PrintWriter(keyword_distribution_file, "US-ASCII");
-            for(String keyword : keywordsList_sorted){
-               distribution_text.print(keyword.replaceAll(regexCSV, "")+",");
-               distribution_text.print((int)keywords_distribution.get(keyword)+",");
-               for(int i=0;i<(int)keywords_distribution.get(keyword);i++)
-                  distribution_text.print("|");
-               distribution_text.println();
-            }
-            distribution_text.close();
-         }
-         catch(Exception e){
-            e.printStackTrace();
-         }
    
       return keywords_distribution_sorted;
    }
@@ -137,7 +121,7 @@ public class KeywordHandeler {
       }
    }   
    
-   public Map KeywordMatricMap(Map urlKeywords, ArrayList<String> keywordsList, String keyword_matrix_file){
+   public Map KeywordMatricMap(Map urlKeywords, ArrayList<String> keywordsList){
    
       Map keywordMatrixMap = new TreeMap(); 
    
@@ -164,32 +148,10 @@ public class KeywordHandeler {
       //place array in Map
          keywordMatrixMap.put(url,keywordArray);
       }
-      
-        
-      if(keyword_matrix_file!=null && !keyword_matrix_file.isEmpty())
-         try{
-            PrintWriter matrix_text = new PrintWriter(keyword_matrix_file, "US-ASCII");
-         
-         //print keyword distribution
-            Iterator keywordsMatrix_itt = keywordMatrixMap.entrySet().iterator();
-            while (keywordsMatrix_itt.hasNext()) {
-               Map.Entry<String, int[]> pairs = (Map.Entry)keywordsMatrix_itt.next();
-               String url = pairs.getKey();
-               int[] keywordsArray = pairs.getValue();
-            
-               matrix_text.print(url+",");
-               for(int present : keywordsArray)
-                  matrix_text.print(present+",");
-               matrix_text.println();
-            }
-            matrix_text.close();
-         }
-         catch(Exception e){
-            e.printStackTrace();
-         }
+
       return keywordMatrixMap;
    }
-   
+
    public int[][] MaptoMatrix(Map keywordMatrixMap){
    
       return null;
