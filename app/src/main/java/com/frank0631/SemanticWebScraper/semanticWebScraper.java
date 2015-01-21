@@ -33,6 +33,7 @@ public class semanticWebScraper {
     ArrayList<String> Bad_URLs;
     Map url_text_map;
 
+    int numClusters = 50;
     boolean cachedArticle = true;
     int wordCountLimit = 50;
 
@@ -44,7 +45,10 @@ public class semanticWebScraper {
             URLCouples URLs;
             Map summeryMap;
 
-            URLs = getUrlCouples();
+            //get URLs
+            URLHandeler urlHandel = new URLHandeler();
+            //URLs = urlHandel.readURLrows(url_file_name, 20);
+            URLs = urlHandel.readURLFromFiles(valid_file_name, invalid_file_name);
 
             PrintWriter valid_file_writer = new PrintWriter(valid_file_name, "US-ASCII");
             PrintWriter invalid_file_writer = new PrintWriter(invalid_file_name, "US-ASCII");
@@ -53,7 +57,11 @@ public class semanticWebScraper {
             valid_file_writer.close();
             invalid_file_writer.close();
 
-            summeryMap = getSummeries(URLs);
+            //get Summeries
+            ArticleHandeler articleHandeler = new ArticleHandeler("URLs/");
+            if (!cachedArticle)
+                articleHandeler.cacheArticles(URLs.ValidURLs, 10);
+            summeryMap = articleHandeler.summeryMap(URLs.ValidURLs, wordCountLimit, cachedArticle);
             System.out.println("Number of URL Summeries " + summeryMap.size());
 
             Map keywordMap;
@@ -76,11 +84,13 @@ public class semanticWebScraper {
             PrintWriter matrix_file_writer = new PrintWriter(matrix_file_name, "US-ASCII");
             PrintWriter JGIDDLDA_file_writer = new PrintWriter(LDADir+File.separator+JGIDDLDA_file_name, "US-ASCII");
             printKeywordDistribution(keywordDistro, distribution_file_writer);
-            printMatrixMap(keywordMatrixMap, matrix_file_writer, false, false);
+            printMatrixMap(keywords_sorted,keywordMatrixMap, matrix_file_writer, true, true);
             printKeywordJGIDDLDA(keywordMap,JGIDDLDA_file_writer);
             distribution_file_writer.close();
             matrix_file_writer.close();
             JGIDDLDA_file_writer.close();
+
+            CSVtoARFF(matrix_file_name, arff_file_name);
 
             //LDA
             File LDAFile = new File(LDADir);
@@ -91,10 +101,10 @@ public class semanticWebScraper {
 //            ldaOption.inf = true;
             ldaOption.modelName = base_file_name+"model";
             ldaOption.est = true;
-            ldaOption.K = 50;
+            ldaOption.K = numClusters;
             ldaOption.dfile = JGIDDLDA_file_name;
             ldaOption.dir = LDADir;
-            ldaOption.twords = 4835;
+            ldaOption.twords = keywords_sorted.size();
             ldaOption.niters = 500;
             ldaOption.savestep = 500 + 1;
 
@@ -109,7 +119,7 @@ public class semanticWebScraper {
 //            Model newModel = inferencer.inference(test);
 
             //LDADataset.readDataSet(matrix_file_name);
-            //CSVtoARFF(matrix_file_name, arff_file_name);
+
 
 
         } catch (Exception e) {
@@ -124,23 +134,6 @@ public class semanticWebScraper {
         //k_means
         //graph representation
 
-    }
-
-    private Map getSummeries(URLCouples URLs) {
-        Map summeryMap;
-        ArticleHandeler articleHandeler = new ArticleHandeler("URLs/");
-        if (!cachedArticle)
-            articleHandeler.cacheArticles(URLs.ValidURLs, 10);
-        summeryMap = articleHandeler.summeryMap(URLs.ValidURLs, wordCountLimit, cachedArticle);
-        return summeryMap;
-    }
-
-    private URLCouples getUrlCouples() {
-        URLCouples URLs;
-        URLHandeler urlHandel = new URLHandeler();
-        //URLs = urlHandel.readURLrows(url_file_name, 20);
-        URLs = urlHandel.readURLFromFiles(valid_file_name, invalid_file_name);
-        return URLs;
     }
 
     public static void main(String[] args) {
@@ -190,12 +183,11 @@ public class semanticWebScraper {
         }
     }
 
-    private static void printMatrixMap(Map keywordMatrixMap,PrintWriter keyword_matrix_writer,boolean printHeader,boolean printURLs) {
+    private static void printMatrixMap(ArrayList<String> keywordsList, Map keywordMatrixMap, PrintWriter keyword_matrix_writer, boolean printHeader, boolean printURLs) {
         //print keyword distribution
 
-        ArrayList<String> keywordsList = new ArrayList<String>(keywordMatrixMap.keySet());
         if (printHeader) {
-            keyword_matrix_writer.print("Keywords header, hostname,");
+            keyword_matrix_writer.print("Keywords header,hostname,");
             for (int i = 0; i < keywordsList.size(); ++i) {
                 String keyword = keywordsList.get(i);
                 if (i + 1 == keywordsList.size())
